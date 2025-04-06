@@ -31,8 +31,8 @@ cd wer-regiert-in.de
 npm install
 
 # Start the development server
-npm start
-```
+npm run dev
+
 ## Planned Features
 
 - Multi language support
