@@ -2,16 +2,16 @@
   "de-by": {
     "name": "Bayern",
     "capital": "München",
-    "population": 1000000,
+    "population": 13176000,
     "government": [
       {
         "name": "Ministerpräsident",
-        "party": "CDU",
-        "current": "Max Mustermann"
+        "party": "CSU",
+        "current": "Dr. Markus Söder"
       },
       {
         "name": "stellvertretender Ministerpräsident",
-        "party": "CDU",
+        "party": "Freie Wähler",
         "current": "Max Mustermann"
       }
     ],
@@ -417,6 +417,9 @@
     },
     "AfD": {
       "color": "#ff5733"
+    },
+    "Freie Wähler": {
+      "color": "#ea4623"
     }
   }
 }
