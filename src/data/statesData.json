@@ -1,0 +1,422 @@
+{
+  "de-by": {
+    "name": "Bayern",
+    "capital": "München",
+    "population": 1000000,
+    "government": [
+      {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      }
+    ],
+    "ministries": [
+      {
+        "name": "Dummy Ministerium",
+        "address": "Musterstraße 1, 80333 München",
+        "current": "Max Mustermann",
+        "party": "CDU"
+      }
+    ]
+  },
+  "de-bw": {
+    "name": "Baden-Württemberg",
+    "capital": "Stuttgart",
+    "population": 1000000,
+    "government": [
+      {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      }
+    ],
+    "ministries": [
+      {
+        "name": "Dummy Ministerium",
+        "address": "Musterstraße 1, 80333 München",
+        "current": "Max Mustermann",
+        "party": "CDU"
+      }
+    ]
+  },
+  "de-rp": {
+    "name": "Rheinland-Pfalz",
+    "capital": "Mainz",
+    "population": 1000000,
+    "government": [
+      {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      }
+    ],
+    "ministries": [
+      {
+        "name": "Dummy Ministerium",
+        "address": "Musterstraße 1, 80333 München",
+        "current": "Max Mustermann",
+        "party": "CDU"
+      }
+    ]
+  },
+  "de-he": {
+    "name": "Hessen",
+    "capital": "Wiesbaden",
+    "population": 1000000,
+    "government": [
+      {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      }
+    ],
+    "ministries": [
+      {
+        "name": "Dummy Ministerium",
+        "address": "Musterstraße 1, 80333 München",
+        "current": "Max Mustermann",
+        "party": "CDU"
+      }
+    ]
+  },
+  "de-nw": {
+    "name": "Nordrhein-Westfalen",
+    "capital": "Düsseldorf",
+    "population": 1000000,
+    "government": [
+      {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      }
+    ],
+    "ministries": [
+      {
+        "name": "Dummy Ministerium",
+        "address": "Musterstraße 1, 80333 München",
+        "current": "Max Mustermann",
+        "party": "CDU"
+      }
+    ]
+  },
+  "de-ni": {
+    "name": "Niedersachsen",
+    "capital": "Hannover",
+    "population": 1000000,
+    "government": [
+      {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      }
+    ],
+    "ministries": [
+      {
+        "name": "Dummy Ministerium",
+        "address": "Musterstraße 1, 80333 München",
+        "current": "Max Mustermann",
+        "party": "CDU"
+      }
+    ]
+  },
+  "de-sh": {
+    "name": "Schleswig-Holstein",
+    "capital": "Kiel",
+    "population": 1000000,
+    "government": [
+      {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      }
+    ],
+    "ministries": [
+      {
+        "name": "Dummy Ministerium",
+        "address": "Musterstraße 1, 80333 München",
+        "current": "Max Mustermann",
+        "party": "CDU"
+      }
+    ]
+  },
+  "de-mv": {
+    "name": "Mecklenburg-Vorpommern",
+    "capital": "Schwerin",
+    "population": 1000000,
+    "government": [
+      {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      }
+    ],
+    "ministries": [
+      {
+        "name": "Dummy Ministerium",
+        "address": "Musterstraße 1, 80333 München",
+        "current": "Max Mustermann",
+        "party": "CDU"
+      }
+    ]
+  },
+  "de-bb": {
+    "name": "Brandenburg",
+    "capital": "Potsdam",
+    "population": 1000000,
+    "government": [
+      {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      }
+    ],
+    "ministries": [
+      {
+        "name": "Dummy Ministerium",
+        "address": "Musterstraße 1, 80333 München",
+        "current": "Max Mustermann",
+        "party": "CDU"
+      }
+    ]
+  },
+  "de-be": {
+    "name": "Berlin",
+    "capital": "Berlin",
+    "population": 1000000,
+    "government": [
+      {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      }
+    ],
+    "ministries": [
+      {
+        "name": "Dummy Ministerium",
+        "address": "Musterstraße 1, 80333 München",
+        "current": "Max Mustermann",
+        "party": "CDU"
+      }
+    ]
+  },
+  "de-st": {
+    "name": "Sachsen-Anhalt",
+    "capital": "Magdeburg",
+    "population": 1000000,
+    "government": [
+      {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      }
+    ],
+    "ministries": [
+      {
+        "name": "Dummy Ministerium",
+        "address": "Musterstraße 1, 80333 München",
+        "current": "Max Mustermann",
+        "party": "CDU"
+      }
+    ]
+  },
+  "de-th": {
+    "name": "Thüringen",
+    "capital": "Erfurt",
+    "population": 1000000,
+    "government": [
+      {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      }
+    ],
+    "ministries": [
+      {
+        "name": "Dummy Ministerium",
+        "address": "Musterstraße 1, 80333 München",
+        "current": "Max Mustermann",
+        "party": "CDU"
+      }
+    ]
+  },
+  "de-sn": {
+    "name": "Sachsen",
+    "capital": "Dresden",
+    "population": 1000000,
+    "government": [
+      {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      }
+    ],
+    "ministries": [
+      {
+        "name": "Dummy Ministerium",
+        "address": "Musterstraße 1, 80333 München",
+        "current": "Max Mustermann",
+        "party": "CDU"
+      }
+    ]
+  },
+  "de-sl": {
+    "name": "Saarland",
+    "capital": "Saarbrücken",
+    "population": 1000000,
+    "government": [
+      {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      }
+    ],
+    "ministries": [
+      {
+        "name": "Dummy Ministerium",
+        "address": "Musterstraße 1, 80333 München",
+        "current": "Max Mustermann",
+        "party": "CDU"
+      }
+    ]
+  },
+  "de-hh": {
+    "name": "Hamburg",
+    "capital": "Hamburg",
+    "population": 1000000,
+    "government": [
+      {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      }
+    ],
+    "ministries": [
+      {
+        "name": "Dummy Ministerium",
+        "address": "Musterstraße 1, 80333 München",
+        "current": "Max Mustermann",
+        "party": "CDU"
+      }
+    ]
+  },
+  "de-hb": {
+    "name": "Bremen",
+    "capital": "Bremen",
+    "population": 1000000,
+    "government": [
+      {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "CDU",
+        "current": "Max Mustermann"
+      }
+    ],
+    "ministries": [
+      {
+        "name": "Dummy Ministerium",
+        "address": "Musterstraße 1, 80333 München",
+        "current": "Max Mustermann",
+        "party": "CDU"
+      }
+    ]
+  },
+  "parties": {
+    "CDU": {
+      "color": "#ff5733"
+    },
+    "CSU": {
+      "color": "#ff5733"
+    },
+    "SPD": {
+      "color": "#ff5733"
+    },
+    "FDP": {
+      "color": "#ff5733"
+    },
+    "Grüne": {
+      "color": "#ff5733"
+    },
+    "AfD": {
+      "color": "#ff5733"
+    }
+  }
+}

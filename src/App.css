@@ -1,0 +1,94 @@
+/* App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Verhindert jegliches Scrollen */
+  position: fixed; /* Fixiert die Ansicht */
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Verwendet viewport height */
+  width: 100vw; /* Verwendet viewport width */
+  overflow: hidden; /* Verhindert Scrollbalken */
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  flex-shrink: 0; /* Verhindert, dass der Header schrumpft */
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Verhindert Scrollbalken im Hauptbereich */
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  flex-shrink: 0; /* Verhindert, dass der Footer schrumpft */
+}
+
+/* Germany Map Styles */
+.germany-map-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.germany-map {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  background-color: #f8f8f8;
+}
+
+.state-path {
+  cursor: pointer;
+  transition: fill 0.3s ease;
+}
+
+.state-path:hover {
+  fill: #76a5e0 !important;
+  stroke-width: 2;
+}
+
+.state-label {
+  font-size: 12px;
+  pointer-events: none;
+  text-anchor: middle;
+}
+
+@media screen and (max-width: 768px) {
+  .state-label {
+    font-size: 10px;
+  }
+}

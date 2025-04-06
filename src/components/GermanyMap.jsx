@@ -1,0 +1,56 @@
+// GermanyMap.jsx
+import React, { useState } from "react";
+import statesData from "../data/statesData.json";
+import "bootstrap/dist/css/bootstrap.min.css";
+import StateModal from "./StateModal.jsx";
+import useLoadGeoData from "../hooks/loadGeoData.jsx";
+
+const GermanyMap = () => {
+  const [selectedState, setSelectedState] = useState(null);
+  const [svgPaths, setSvgPaths] = useState({});
+  const [show, setShow] = useState(false);
+  const handleClosePopUp = () => {
+    setShow(false);
+    setSelectedState(null);
+  };
+  const handleShowPopUp = () => setShow(true);
+
+  useLoadGeoData(svgPaths, setSvgPaths);
+
+  const handleStateClick = (stateId) => {
+    setSelectedState(stateId);
+  };
+
+  return (
+    <>
+      <div className="germany-map-container">
+        <svg viewBox="0 0 800 900" className="germany-map">
+          {Object.keys(svgPaths).map((stateId) => {
+            const stateInfo = statesData[stateId] || { name: stateId };
+            const stateName = stateInfo.name;
+
+            return (
+              <path
+                key={stateId}
+                d={svgPaths[stateId]}
+                fill={selectedState === stateId ? "#a3c2e5" : "#d1e0f5"}
+                stroke="#333"
+                strokeWidth="1"
+                onClick={() => {
+                  handleStateClick(stateId);
+                  handleShowPopUp();
+                }}
+                data-state={stateId}
+                className="state-path"
+              >
+                <title>{stateName}</title>
+              </path>
+            );
+          })}
+        </svg>
+      </div>
+      <StateModal selectedState={selectedState} show={show} handleClosePopUp={handleClosePopUp} statesData={statesData} />
+    </>
+  );
+};
+export default GermanyMap;
