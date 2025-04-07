@@ -8,11 +8,6 @@
         "name": "Ministerpräsident",
         "party": "CSU",
         "current": "Dr. Markus Söder"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Freie Wähler",
-        "current": "Max Mustermann"
       }
     ],
     "ministries": [
@@ -22,7 +17,21 @@
         "current": "Max Mustermann",
         "party": "CDU"
       }
-    ]
+    ],
+    "seats": [
+      {
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
+      }
+    ],
+    "lastVoteDate": "01.01.1970",
+    "notes": "Das sind Anmerkungen"
   },
   "de-bw": {
     "name": "Baden-Württemberg",
@@ -47,7 +56,20 @@
         "current": "Max Mustermann",
         "party": "CDU"
       }
-    ]
+    ],
+    "seats": [
+      {
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
+      }
+    ],
+    "lastVoteDate": "01.01.1970"
   },
   "de-rp": {
     "name": "Rheinland-Pfalz",
@@ -72,7 +94,20 @@
         "current": "Max Mustermann",
         "party": "CDU"
       }
-    ]
+    ],
+    "seats": [
+      {
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
+      }
+    ],
+    "lastVoteDate": "01.01.1970"
   },
   "de-he": {
     "name": "Hessen",
@@ -97,7 +132,20 @@
         "current": "Max Mustermann",
         "party": "CDU"
       }
-    ]
+    ],
+    "seats": [
+      {
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
+      }
+    ],
+    "lastVoteDate": "01.01.1970"
   },
   "de-nw": {
     "name": "Nordrhein-Westfalen",
@@ -122,7 +170,20 @@
         "current": "Max Mustermann",
         "party": "CDU"
       }
-    ]
+    ],
+    "seats": [
+      {
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
+      }
+    ],
+    "lastVoteDate": "01.01.1970"
   },
   "de-ni": {
     "name": "Niedersachsen",
@@ -147,7 +208,20 @@
         "current": "Max Mustermann",
         "party": "CDU"
       }
-    ]
+    ],
+    "seats": [
+      {
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
+      }
+    ],
+    "lastVoteDate": "01.01.1970"
   },
   "de-sh": {
     "name": "Schleswig-Holstein",
@@ -172,7 +246,20 @@
         "current": "Max Mustermann",
         "party": "CDU"
       }
-    ]
+    ],
+    "seats": [
+      {
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
+      }
+    ],
+    "lastVoteDate": "01.01.1970"
   },
   "de-mv": {
     "name": "Mecklenburg-Vorpommern",
@@ -197,7 +284,20 @@
         "current": "Max Mustermann",
         "party": "CDU"
       }
-    ]
+    ],
+    "seats": [
+      {
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
+      }
+    ],
+    "lastVoteDate": "01.01.1970"
   },
   "de-bb": {
     "name": "Brandenburg",
@@ -222,7 +322,20 @@
         "current": "Max Mustermann",
         "party": "CDU"
       }
-    ]
+    ],
+    "seats": [
+      {
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
+      }
+    ],
+    "lastVoteDate": "01.01.1970"
   },
   "de-be": {
     "name": "Berlin",
@@ -247,7 +360,20 @@
         "current": "Max Mustermann",
         "party": "CDU"
       }
-    ]
+    ],
+    "seats": [
+      {
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
+      }
+    ],
+    "lastVoteDate": "01.01.1970"
   },
   "de-st": {
     "name": "Sachsen-Anhalt",
@@ -272,7 +398,20 @@
         "current": "Max Mustermann",
         "party": "CDU"
       }
-    ]
+    ],
+    "seats": [
+      {
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
+      }
+    ],
+    "lastVoteDate": "01.01.1970"
   },
   "de-th": {
     "name": "Thüringen",
@@ -297,7 +436,20 @@
         "current": "Max Mustermann",
         "party": "CDU"
       }
-    ]
+    ],
+    "seats": [
+      {
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
+      }
+    ],
+    "lastVoteDate": "01.01.1970"
   },
   "de-sn": {
     "name": "Sachsen",
@@ -322,7 +474,20 @@
         "current": "Max Mustermann",
         "party": "CDU"
       }
-    ]
+    ],
+    "seats": [
+      {
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
+      }
+    ],
+    "lastVoteDate": "01.01.1970"
   },
   "de-sl": {
     "name": "Saarland",
@@ -347,7 +512,20 @@
         "current": "Max Mustermann",
         "party": "CDU"
       }
-    ]
+    ],
+    "seats": [
+      {
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
+      }
+    ],
+    "lastVoteDate": "01.01.1970"
   },
   "de-hh": {
     "name": "Hamburg",
@@ -372,7 +550,20 @@
         "current": "Max Mustermann",
         "party": "CDU"
       }
-    ]
+    ],
+    "seats": [
+      {
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
+      }
+    ],
+    "lastVoteDate": "01.01.1970"
   },
   "de-hb": {
     "name": "Bremen",
@@ -397,7 +588,20 @@
         "current": "Max Mustermann",
         "party": "CDU"
       }
-    ]
+    ],
+    "seats": [
+      {
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
+      }
+    ],
+    "lastVoteDate": "01.01.1970"
   },
   "parties": {
     "CDU": {

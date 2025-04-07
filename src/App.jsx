@@ -15,7 +15,7 @@ function App() {
       </main>
       <footer>
         <p>Diese Karte kann Fehler enthalten</p>
-        <p>© 2025 wer-regiert-in.de</p>
+        <p>Made by Hendrik Beier, Nikolas Miksiewicz, Marc Wachsmann</p>
       </footer>
     </div>
   );
