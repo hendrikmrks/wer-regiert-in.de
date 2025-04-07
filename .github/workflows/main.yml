@@ -29,15 +29,16 @@ jobs:
         run: du -sh dist/
       
       - name: Deploy via SFTP
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          username: ${{ secrets.SFTP_USERNAME }}
           server: ${{ secrets.SFTP_SERVER }}
-          port: ${{ secrets.SFTP_PORT }}
-          local_path: './dist/*'
-          remote_path: ${{ secrets.SFTP_REMOTE_PATH }}
+          username: ${{ secrets.SFTP_USERNAME }}
           password: ${{ secrets.SFTP_PASSWORD }}
-          sftpArgs: '-o ConnectTimeout=5'
+          port: ${{ secrets.SFTP_PORT }}
+          protocol: sftp
+          local-dir: ./dist/
+          server-dir: ${{ secrets.SFTP_REMOTE_PATH }}
+          dangerous-clean-slate: false
       
       - name: Deployment Result
         run: |
