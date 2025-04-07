@@ -39,7 +39,7 @@ jobs:
           set -e
           
           # Kopiert den Build-Ordner mit sshpass und scp
-          sshpass -e scp -o StrictHostKeyChecking=no -P ${{ secrets.SFTP_PORT }} -r ./build/* ${{ secrets.SFTP_USERNAME }}@${{ secrets.SFTP_SERVER }}:${{ secrets.SFTP_REMOTE_PATH }}
+          sshpass -e scp -o StrictHostKeyChecking=no -P ${{ secrets.SFTP_PORT }} -r ./dist/* ${{ secrets.SFTP_USERNAME }}@${{ secrets.SFTP_SERVER }}:${{ secrets.SFTP_REMOTE_PATH }}
           
           echo "::notice::React app was successfully deployed to ${{ secrets.SFTP_SERVER }}:${{ secrets.SFTP_REMOTE_PATH }}"
       
