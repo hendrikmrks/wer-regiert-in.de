@@ -1,39 +1,45 @@
-name: Build and Attach to Release
+name: React Build and SFTP Deploy
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - main
 
 jobs:
-  build-and-attach:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+      
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v3
         with:
           node-version: '18'
           cache: 'npm'
-
-      - name: Install dependencies
+      
+      - name: Install Dependencies
         run: npm ci
-
-      - name: Build project
+      
+      - name: Build React App
         run: npm run build
-
-      - name: Create ZIP archive
-        run: |
-          cd dist
-          zip -r ../wer-regiert-in.zip .
-          cd ..
-
-      - name: Attach ZIP to release
-        uses: softprops/action-gh-release@v1
+      
+      - name: Display Build Size
+        run: du -sh build/
+      
+      - name: Deploy via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          files: wer-regiert-in.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          username: ${{ secrets.SFTP_USERNAME }}
+          server: ${{ secrets.SFTP_SERVER }}
+          port: ${{ secrets.SFTP_PORT }}
+          local_path: './build/*'
+          remote_path: ${{ secrets.SFTP_REMOTE_PATH }}
+          password: ${{ secrets.SFTP_PASSWORD }}
+          sftpArgs: '-o ConnectTimeout=5'
+      
+      - name: Deployment Result
+        run: |
+          echo "::notice::React app was built and deployed successfully!"
+          echo "::notice::Deployed files from 'build/' to '${{ secrets.SFTP_REMOTE_PATH }}'"
