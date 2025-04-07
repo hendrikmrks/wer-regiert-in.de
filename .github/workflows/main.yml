@@ -28,17 +28,20 @@ jobs:
       - name: Display Build Size
         run: du -sh dist/
       
+      - name: Install sshpass
+        run: sudo apt-get install -y sshpass
+      
       - name: Deploy via SFTP
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.SFTP_SERVER }}
-          username: ${{ secrets.SFTP_USERNAME }}
-          password: ${{ secrets.SFTP_PASSWORD }}
-          port: ${{ secrets.SFTP_PORT }}
-          source: "dist/"
-          target: ${{ secrets.SFTP_REMOTE_PATH }}
-          strip_components: 1
-          overwrite: true
+        env:
+          SSHPASS: ${{ secrets.SFTP_PASSWORD }}
+        run: |
+          # Stellt sicher, dass Verbindungsfehler nicht ignoriert werden
+          set -e
+          
+          # Kopiert den Build-Ordner mit sshpass und scp
+          sshpass -e scp -o StrictHostKeyChecking=no -P ${{ secrets.SFTP_PORT }} -r ./build/* ${{ secrets.SFTP_USERNAME }}@${{ secrets.SFTP_SERVER }}:${{ secrets.SFTP_REMOTE_PATH }}
+          
+          echo "::notice::React app was successfully deployed to ${{ secrets.SFTP_SERVER }}:${{ secrets.SFTP_REMOTE_PATH }}"
       
       - name: Deployment Result
         run: |
