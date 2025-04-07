@@ -29,16 +29,16 @@ jobs:
         run: du -sh dist/
       
       - name: Deploy via SFTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: appleboy/scp-action@master
         with:
-          server: ${{ secrets.SFTP_SERVER }}
+          host: ${{ secrets.SFTP_SERVER }}
           username: ${{ secrets.SFTP_USERNAME }}
           password: ${{ secrets.SFTP_PASSWORD }}
           port: ${{ secrets.SFTP_PORT }}
-          protocol: sftp
-          local-dir: ./dist/
-          server-dir: ${{ secrets.SFTP_REMOTE_PATH }}
-          dangerous-clean-slate: false
+          source: "dist/"
+          target: ${{ secrets.SFTP_REMOTE_PATH }}
+          strip_components: 1
+          overwrite: true
       
       - name: Deployment Result
         run: |
