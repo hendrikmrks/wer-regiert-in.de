@@ -1,5 +1,7 @@
 import React from 'react';
-import { Modal as BootstrapModal, Table, Row, Col, Card, Accordion, Button } from 'react-bootstrap';
+import { Modal as BootstrapModal, Table, Row, Col, Card, Button, Alert } from 'react-bootstrap';
+import formatNumber from '../hooks/useFormatNumbers.jsx';
+import * as Icon from 'react-bootstrap-icons';
 
 const StateModal = ({
                         selectedState,
@@ -12,23 +14,21 @@ const StateModal = ({
             {selectedState ? (
                 <BootstrapModal size="lg" show={show} onHide={handleClosePopUp}>
                     <BootstrapModal.Header closeButton>
-                        <BootstrapModal.Title>{statesData[selectedState]?.name}</BootstrapModal.Title>
+                        <BootstrapModal.Title>{statesData[selectedState]?.name} ({statesData[selectedState]?.capital})</BootstrapModal.Title>
                     </BootstrapModal.Header>
                     <BootstrapModal.Body>
                         <Table bordered hover>
                             <tbody>
                             <tr>
-                                <td>Landeshauptstadt</td>
-                                <td>{statesData[selectedState]?.capital}</td>
-                            </tr>
-                            <tr>
                                 <td>Einwohnerzahl</td>
-                                <td>{statesData[selectedState]?.population}</td>
+                                <td>
+                                    {formatNumber(statesData[selectedState]?.population)}
+                                </td>
                             </tr>
                             </tbody>
                         </Table>
 
-                        <Row className="mb-4">
+                        <Row>
                             {statesData[selectedState]?.government.map((gov, index) => (
                                 <Col sm={6} className="mb-4" key={`gov-${index}`}>
                                     <Card
@@ -49,27 +49,32 @@ const StateModal = ({
                             ))}
                         </Row>
 
-                        <Accordion>
-                            {statesData[selectedState]?.ministries.map((min, index) => (
-                                <Accordion.Item eventKey={`min-${index}`} key={`min-${index}`}>
-                                    <Accordion.Header>{min.name}</Accordion.Header>
-                                    <Accordion.Body>
-                                        <Table bordered hover>
-                                            <tbody>
+                        <Row>
+                            <Col className="mb-4">
+                                <p>Wahlergebnis nach Zweitstimmen (Anzahl der Sitze)</p>
+                                <Table bordered hover>
+                                    <tbody>
+                                        {statesData[selectedState]?.seats.map((seat) => (
                                             <tr>
-                                                <td>Minister/in</td>
-                                                <td>{min.current+" ("+min.party+")"}</td>
+                                                <td>{seat.name}</td>
+                                                <td>{seat.percent} % ({seat.seats})</td>
                                             </tr>
-                                            <tr>
-                                                <td>Adresse</td>
-                                                <td>{min.address}</td>
-                                            </tr>
-                                            </tbody>
-                                        </Table>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                            ))}
-                        </Accordion>
+                                        ))}
+                                    </tbody>
+                                </Table>
+                            </Col>
+                        </Row>
+                        {statesData[selectedState]?.notes ? (
+                            <Row>
+                                <Col>
+                                    <Alert variant={"warning"}>
+                                        {statesData[selectedState]?.notes}
+                                    </Alert>
+                                </Col>
+                            </Row>
+                        ):null}
+
+                        <Icon.Calendar /> Letzte Wahl: {statesData[selectedState]?.lastVoteDate}
                     </BootstrapModal.Body>
                     <BootstrapModal.Footer>
                         <Button variant="secondary" onClick={handleClosePopUp}>
