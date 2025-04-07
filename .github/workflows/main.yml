@@ -26,7 +26,7 @@ jobs:
         run: npm run build
       
       - name: Display Build Size
-        run: du -sh build/
+        run: du -sh dist/
       
       - name: Deploy via SFTP
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
@@ -34,7 +34,7 @@ jobs:
           username: ${{ secrets.SFTP_USERNAME }}
           server: ${{ secrets.SFTP_SERVER }}
           port: ${{ secrets.SFTP_PORT }}
-          local_path: './build/*'
+          local_path: './dist/*'
           remote_path: ${{ secrets.SFTP_REMOTE_PATH }}
           password: ${{ secrets.SFTP_PASSWORD }}
           sftpArgs: '-o ConnectTimeout=5'
@@ -42,4 +42,4 @@ jobs:
       - name: Deployment Result
         run: |
           echo "::notice::React app was built and deployed successfully!"
-          echo "::notice::Deployed files from 'build/' to '${{ secrets.SFTP_REMOTE_PATH }}'"
+          echo "::notice::Deployed files from 'dist/' to '${{ secrets.SFTP_REMOTE_PATH }}'"
