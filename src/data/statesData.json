@@ -10,14 +10,6 @@
         "current": "Dr. Markus Söder"
       }
     ],
-    "ministries": [
-      {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
-      }
-    ],
     "seats": [
       {
         "name": "CDU",
@@ -47,14 +39,6 @@
         "name": "stellvertretender Ministerpräsident",
         "party": "CDU",
         "current": "Max Mustermann"
-      }
-    ],
-    "ministries": [
-      {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
       }
     ],
     "seats": [
@@ -87,14 +71,6 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
-      {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
-      }
-    ],
     "seats": [
       {
         "name": "CDU",
@@ -123,14 +99,6 @@
         "name": "stellvertretender Ministerpräsident",
         "party": "SPD",
         "current": "Max Mustermann"
-      }
-    ],
-    "ministries": [
-      {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
       }
     ],
     "seats": [
@@ -163,14 +131,6 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
-      {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
-      }
-    ],
     "seats": [
       {
         "name": "CDU",
@@ -199,14 +159,6 @@
         "name": "Vize-Ministerpräsidentin",
         "party": "Bündnis 90/Die Grünen",
         "current": "Julia Willie Hamburg"
-      }
-    ],
-    "ministries": [
-      {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
       }
     ],
     "seats": [
@@ -239,14 +191,6 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
-      {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
-      }
-    ],
     "seats": [
       {
         "name": "CDU",
@@ -275,14 +219,6 @@
         "name": "stellvertretender Ministerpräsident",
         "party": "DIE LINKE",
         "current": "Max Mustermann"
-      }
-    ],
-    "ministries": [
-      {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
       }
     ],
     "seats": [
@@ -315,14 +251,6 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
-      {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
-      }
-    ],
     "seats": [
       {
         "name": "CDU",
@@ -351,14 +279,6 @@
         "name": "stellvertretender Ministerpräsident",
         "party": "SPD",
         "current": "Max Mustermann"
-      }
-    ],
-    "ministries": [
-      {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
       }
     ],
     "seats": [
@@ -391,14 +311,6 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
-      {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
-      }
-    ],
     "seats": [
       {
         "name": "CDU",
@@ -427,14 +339,6 @@
         "name": "stellvertretender Ministerpräsident",
         "party": "CDU",
         "current": "Max Mustermann"
-      }
-    ],
-    "ministries": [
-      {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
       }
     ],
     "seats": [
@@ -467,14 +371,6 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
-      {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
-      }
-    ],
     "seats": [
       {
         "name": "CDU",
@@ -503,14 +399,6 @@
         "name": "stellvertretender Ministerpräsident",
         "party": "SPD",
         "current": "Jürgen Barke"
-      }
-    ],
-    "ministries": [
-      {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
       }
     ],
     "seats": [
@@ -543,14 +431,6 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
-      {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
-      }
-    ],
     "seats": [
       {
         "name": "CDU",
@@ -579,14 +459,6 @@
         "name": "stellvertretender Ministerpräsident",
         "party": "CDU",
         "current": "Max Mustermann"
-      }
-    ],
-    "ministries": [
-      {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
       }
     ],
     "seats": [
