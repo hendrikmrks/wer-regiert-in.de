@@ -41,5 +41,5 @@ jobs:
       
       - name: Deployment Result
         run: |
-          echo "::notice::React app was built and deployed successfully!"
+          echo "::notice::App was built and deployed successfully!"
           echo "::notice::Deployed files from 'dist/' to '${{ secrets.SFTP_REMOTE_PATH }}'"
