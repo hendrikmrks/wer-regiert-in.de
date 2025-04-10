@@ -36,6 +36,7 @@ const StateModal = ({
                                         style={{
                                             backgroundColor:
                                                 statesData["parties"][gov.party]["color"],
+                                            color: "#f7f5f5",
                                         }}
                                     >
                                         <Card.Body>
