@@ -29,14 +29,16 @@ const GermanyMap = () => {
           {Object.keys(svgPaths).map((stateId) => {
             const stateInfo = statesData[stateId] || { name: stateId };
             const stateName = stateInfo.name;
+            const landColor = statesData["parties"][statesData[stateId]["government"][0]["party"]]["color"]
+            //console.log(statesData["parties"][statesData[stateId]["government"][0]["party"]]["color"]);
 
             return (
               <path
                 key={stateId}
                 d={svgPaths[stateId]}
-                fill={selectedState === stateId ? "#a3c2e5" : "#d1e0f5"}
+                fill={selectedState === stateId ? "#d1e0f5" : landColor }
                 stroke="#333"
-                strokeWidth="1"
+                strokeWidth="2"
                 onClick={() => {
                   handleStateClick(stateId);
                   handleShowPopUp();
