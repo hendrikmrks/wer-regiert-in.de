@@ -12,48 +12,73 @@
     ],
     "seats": [
       {
-        "name": "CDU",
-        "seats": 20,
-        "percent": 10
+        "name": "CSU",
+        "seats": 85,
+        "percent": 42
+      },
+      {
+        "name": "Freie Wähler",
+        "seats": 37,
+        "percent": 18
       },
       {
         "name": "AfD",
-        "seats": 40,
-        "percent": 10
+        "seats": 32,
+        "percent": 16
+      },
+      {
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 32,
+        "percent": 16
+      },
+      {
+        "name": "SPD",
+        "seats": 17,
+        "percent": 8
       }
     ],
-    "lastVoteDate": "01.01.1970",
+    "lastVoteDate": "08.10.2023",
     "notes": "Das sind Anmerkungen"
   },
   "de-bw": {
     "name": "Baden-Württemberg",
     "capital": "Stuttgart",
-    "population": 1000000,
+    "population": 11280000,
     "government": [
       {
         "name": "Ministerpräsident",
         "party": "Bündnis 90/Die Grünen",
         "current": "Winfried Kretschmann"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "CDU",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
       {
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 57,
+        "percent": 37
+      },
+      {
         "name": "CDU",
-        "seats": 20,
-        "percent": 10
+        "seats": 43,
+        "percent": 28
+      },
+      {
+        "name": "SPD",
+        "seats": 19,
+        "percent": 12
+      },
+      {
+        "name": "FDP",
+        "seats": 18,
+        "percent": 12
       },
       {
         "name": "AfD",
-        "seats": 40,
-        "percent": 10
+        "seats": 17,
+        "percent": 11
       }
     ],
-    "lastVoteDate": "01.01.1970"
+    "lastVoteDate": "14.03.2021"
   },
   "de-rp": {
     "name": "Rheinland-Pfalz",
@@ -64,26 +89,51 @@
         "name": "Ministerpräsident",
         "party": "SPD",
         "current": "Alexander Schweitzer"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "CDU",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
       {
+        "name": "SPD",
+        "seats": 39,
+        "percent": 39
+      },
+      {
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 9,
+        "percent": 9
+      },
+      {
+        "name": "FDP",
+        "seats": 6,
+        "percent": 6
+      },
+      {
         "name": "CDU",
-        "seats": 20,
-        "percent": 10
+        "seats": 31,
+        "percent": 31
       },
       {
         "name": "AfD",
-        "seats": 40,
-        "percent": 10
+        "seats": 6,
+        "percent": 6
+      },
+      {
+        "name": "Freie Wähler",
+        "seats": 4,
+        "percent": 4
+      },
+      {
+        "name": "Bündnis Sahra Wagenknecht",
+        "seats": 1,
+        "percent": 1
+      },
+      {
+        "name": "Parteilos",
+        "seats": 5,
+        "percent": 5
       }
     ],
-    "lastVoteDate": "01.01.1970"
+    "lastVoteDate": "14.03.2021"
   },
   "de-he": {
     "name": "Hessen",
@@ -477,19 +527,19 @@
   },
   "parties": {
     "CDU": {
-      "color": "#c3bfc5"
+      "color": "#0a0a0a"
     },
     "CSU": {
-      "color": "#c3bfc5"
+      "color": "#02d4db"
     },
     "SPD": {
-      "color": "#ff5733"
+      "color": "#f70509"
     },
     "FDP": {
-      "color": "#ff5733"
+      "color": "#e0f542"
     },
     "Bündnis 90/Die Grünen": {
-      "color": "#ff5733"
+      "color": "#37de04"
     },
     "AfD": {
       "color": "#ff5733"
@@ -499,6 +549,9 @@
     },
     "Bündnis Sahra Wagenknecht": {
       "color": "#9308cb"
+    },
+    "Parteilos": {
+      "color": "#827f7f"
     }
   }
 }
