@@ -60,6 +60,14 @@ const StateModal = ({
                                                 <td>{seat.percent} % ({seat.seats})</td>
                                             </tr>
                                         ))}
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gesamte Anzahl der Sitze</td>
+                                            <td>{statesData[selectedState]["seatsTotal"]}</td>
+                                        </tr>
                                     </tbody>
                                 </Table>
                             </Col>

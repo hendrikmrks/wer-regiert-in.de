@@ -37,6 +37,7 @@
         "percent": 8
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "08.10.2023",
     "notes": "Das sind Anmerkungen"
   },
@@ -78,6 +79,7 @@
         "percent": 11
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "14.03.2021"
   },
   "de-rp": {
@@ -133,6 +135,7 @@
         "percent": 5
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "14.03.2021"
   },
   "de-he": {
@@ -163,6 +166,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-nw": {
@@ -193,6 +197,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-ni": {
@@ -223,6 +228,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-sh": {
@@ -253,6 +259,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-mv": {
@@ -283,6 +290,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-bb": {
@@ -313,6 +321,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-be": {
@@ -343,6 +352,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-st": {
@@ -373,6 +383,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-th": {
@@ -403,6 +414,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-sn": {
@@ -433,6 +445,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-sl": {
@@ -463,6 +476,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-hh": {
@@ -493,6 +507,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-hb": {
@@ -523,6 +538,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "parties": {
