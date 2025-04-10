@@ -432,6 +432,18 @@
     "population": 1000000,
     "government": [
       {
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Daniel Günther"
+      },
+      {
+        "name": "stellvertretender Ministerpräsident",
+        "party": "Bündnis 90/Die Grünen",
+        "current": "Max Mustermann"
+      }
+    ],
+    "seats": [
+      {
         "name": "FDP",
         "seats": 0,
         "percent": 4.7
@@ -741,10 +753,10 @@
     "Parteilos": {
       "color": "#827f7f"
     },
-     "Sonstige": {
+    "Sonstige": {
       "color": "#083c64"
     },
-     "Südschleswigscher Wählerverband": {
+    "Südschleswigscher Wählerverband": {
        "color": "#185787"
     },
     "DIE LINKE": {
