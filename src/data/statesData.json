@@ -117,11 +117,11 @@
         "name": "Sonstige",
         "seats": 0,
         "percent": 5.5
-      },  
+      }
     ],
     "lastVoteDate": "2021",
-    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
-    "seatsTotal": 100,
+    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet.",
+    "seatsTotal": 100
   },
   "de-rp": {
     "name": "Rheinland-Pfalz",
