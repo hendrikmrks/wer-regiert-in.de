@@ -453,13 +453,13 @@
       },
       {
         "name": "Südschleswigscher Wählerverband",
-        "seats": 0
+        "seats": 0,
         "percent": 5.7
       {
         "name": "Sonstige",
         "seats": 0,
         "percent": 3.4
-      },  
+      }
     ],
     "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
