@@ -59,6 +59,7 @@
     ],
     "lastVoteDate": "2023",
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
+    "seatsTotal": 100,
   },
   "de-bw": {
     "name": "Baden-Württemberg",
@@ -120,6 +121,7 @@
     ],
     "lastVoteDate": "2021",
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
+    "seatsTotal": 100,
   },
   "de-rp": {
     "name": "Rheinland-Pfalz",
@@ -181,6 +183,7 @@
     ],
     "lastVoteDate": "2021",
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
+    "seatsTotal": 100,
   },
   "de-he": {
     "name": "Hessen",
@@ -246,6 +249,7 @@
       },  
     ],
     "lastVoteDate": "2023"
+    "seatsTotal": 100,
   },
   "de-nw": {
     "name": "Nordrhein-Westfalen",
@@ -312,6 +316,7 @@
     ],
     "lastVoteDate": "2022",
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
+    "seatsTotal": 100,
   },
   "de-ni": {
     "name": "Niedersachsen",
@@ -378,6 +383,7 @@
     ],
     "lastVoteDate": "2022",
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
+    "seatsTotal": 100,
   },
   "de-sh": {
     "name": "Schleswig-Holstein",
@@ -415,7 +421,16 @@
         "name": "AfD",
         "seats": 18,
         "percent": 11
-      },
+      }
+    ],
+    "seatsTotal": 100,
+    "lastVoteDate": "01.01.1970"
+  },
+  "de-mv": {
+    "name": "Mecklenburg-Vorpommern",
+    "capital": "Schwerin",
+    "population": 1000000,
+    "government": [
       {
         "name": "FDP",
         "seats": 0,
@@ -446,6 +461,7 @@
         "percent": 3.4
       },  
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-bb": {
@@ -476,6 +492,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-be": {
@@ -506,6 +523,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-st": {
@@ -536,6 +554,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-th": {
@@ -566,6 +585,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-sn": {
@@ -596,6 +616,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-sl": {
@@ -626,6 +647,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-hh": {
@@ -656,6 +678,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "de-hb": {
@@ -686,6 +709,7 @@
         "percent": 10
       }
     ],
+    "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
   },
   "parties": {
