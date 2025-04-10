@@ -38,7 +38,7 @@ const GermanyMap = () => {
                 d={svgPaths[stateId]}
                 fill={selectedState === stateId ? "#d1e0f5" : landColor }
                 stroke="#333"
-                strokeWidth="1"
+                strokeWidth="2"
                 onClick={() => {
                   handleStateClick(stateId);
                   handleShowPopUp();
