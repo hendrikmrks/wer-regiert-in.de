@@ -55,11 +55,11 @@
         "name": "Sonstige",
         "seats": 0,
         "percent": 4.8
-      },  
+      }
     ],
     "lastVoteDate": "2023",
-    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
-    "seatsTotal": 100,
+    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet.",
+    "seatsTotal": 100
   },
   "de-bw": {
     "name": "Baden-Württemberg",
