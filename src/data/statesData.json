@@ -14,32 +14,52 @@
       {
         "name": "CSU",
         "seats": 85,
-        "percent": 42
+        "percent": 37
       },
       {
         "name": "Freie Wähler",
         "seats": 37,
-        "percent": 18
-      },
-      {
-        "name": "AfD",
-        "seats": 32,
-        "percent": 16
-      },
-      {
-        "name": "Bündnis 90/Die Grünen",
-        "seats": 32,
-        "percent": 16
+        "percent": 15.8
       },
       {
         "name": "SPD",
         "seats": 17,
-        "percent": 8
-      }
+        "percent": 8.4
+      },
+      {
+        "name": "AfD",
+        "seats": 32,
+        "percent": 14.6
+      },
+      {
+        "name": "FDP",
+        "seats": 0,
+        "percent": 3
+      },
+      {
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 32,
+        "percent": 14.4
+      },
+      {
+        "name": "DIE LINKE",
+        "seats": 0,
+        "percent": 1.5
+      },
+      {
+        "name": "Bündnis Sahra Wagenknecht",
+        "seats": 0,
+        "percent": 0
+      },
+      {
+        "name": "Sonstige",
+        "seats": 0,
+        "percent": 4.8
+      },  
     ],
+    "lastVoteDate": "2023",
+    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
     "seatsTotal": 100,
-    "lastVoteDate": "08.10.2023",
-    "notes": "Das sind Anmerkungen"
   },
   "de-bw": {
     "name": "Baden-Württemberg",
@@ -54,33 +74,54 @@
     ],
     "seats": [
       {
-        "name": "Bündnis 90/Die Grünen",
-        "seats": 57,
-        "percent": 37
+        "name": "CDU",
+        "seats": 42,
+        "percent": 24.1
       },
       {
-        "name": "CDU",
-        "seats": 43,
-        "percent": 28
+        "name": "Freie Wähler",
+        "seats": 0,
+        "percent": 3
       },
       {
         "name": "SPD",
         "seats": 19,
-        "percent": 12
-      },
-      {
-        "name": "FDP",
-        "seats": 18,
-        "percent": 12
+        "percent": 11
       },
       {
         "name": "AfD",
         "seats": 17,
-        "percent": 11
-      }
+        "percent": 9.7
+      },
+      {
+        "name": "FDP",
+        "seats": 18,
+        "percent": 10.5
+      },
+      {
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 58,
+        "percent": 32.6
+      },
+      {
+        "name": "DIE LINKE",
+        "seats": 0,
+        "percent": 3.6
+      },
+      {
+        "name": "Bündnis Sahra Wagenknecht",
+        "seats": 0,
+        "percent": 0
+      },
+      {
+        "name": "Sonstige",
+        "seats": 0,
+        "percent": 5.5
+      },  
     ],
+    "lastVoteDate": "2021",
+    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
     "seatsTotal": 100,
-    "lastVoteDate": "14.03.2021"
   },
   "de-rp": {
     "name": "Rheinland-Pfalz",
@@ -95,48 +136,54 @@
     ],
     "seats": [
       {
-        "name": "SPD",
-        "seats": 39,
-        "percent": 39
+        "name": "CDU",
+        "seats": 31,
+        "percent": 27.7
       },
       {
-        "name": "Bündnis 90/Die Grünen",
+        "name": "Freie Wähler",
+        "seats": 6,
+        "percent": 5.4
+      },
+      {
+        "name": "SPD",
+        "seats": 39,
+        "percent": 35.7
+      },
+      {
+        "name": "AfD",
         "seats": 9,
-        "percent": 9
+        "percent": 8.3
       },
       {
         "name": "FDP",
         "seats": 6,
-        "percent": 6
+        "percent": 5.5
       },
       {
-        "name": "CDU",
-        "seats": 31,
-        "percent": 31
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 10,
+        "percent": 9.3
       },
       {
-        "name": "AfD",
-        "seats": 6,
-        "percent": 6
-      },
-      {
-        "name": "Freie Wähler",
-        "seats": 4,
-        "percent": 4
+        "name": "DIE LINKE",
+        "seats": 0,
+        "percent": 2.5
       },
       {
         "name": "Bündnis Sahra Wagenknecht",
-        "seats": 1,
-        "percent": 1
+        "seats": 0,
+        "percent": 0
       },
       {
-        "name": "Parteilos",
-        "seats": 5,
-        "percent": 5
-      }
+        "name": "Sonstige",
+        "seats": 0,
+        "percent": 5.7
+      },  
     ],
+    "lastVoteDate": "2021",
+    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
     "seatsTotal": 100,
-    "lastVoteDate": "14.03.2021"
   },
   "de-he": {
     "name": "Hessen",
@@ -152,22 +199,57 @@
         "name": "stellvertretender Ministerpräsident",
         "party": "SPD",
         "current": "Max Mustermann"
-      }
+      },
     ],
     "seats": [
-      {
+       {
         "name": "CDU",
-        "seats": 20,
-        "percent": 10
+        "seats": 52,
+        "percent": 34.6
+      },
+      {
+        "name": "Freie Wähler",
+        "seats": 0,
+        "percent": 3.5
+      },
+      {
+        "name": "SPD",
+        "seats": 23,
+        "percent": 15.1
       },
       {
         "name": "AfD",
-        "seats": 40,
-        "percent": 10
-      }
+        "seats": 28,
+        "percent": 18.4
+      },
+      {
+        "name": "FDP",
+        "seats": 8,
+        "percent": 5
+      },
+      {
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 22,
+        "percent": 14.8
+      },
+      {
+        "name": "DIE LINKE",
+        "seats": 0,
+        "percent": 2.5
+      },
+      {
+        "name": "Bündnis Sahra Wagenknecht",
+        "seats": 0,
+        "percent": 3.1
+      },
+      {
+        "name": "Sonstige",
+        "seats": 0,
+        "percent": 5.5
+      },  
     ],
+    "lastVoteDate": "2023"
     "seatsTotal": 100,
-    "lastVoteDate": "01.01.1970"
   },
   "de-nw": {
     "name": "Nordrhein-Westfalen",
@@ -188,17 +270,53 @@
     "seats": [
       {
         "name": "CDU",
-        "seats": 20,
-        "percent": 10
+        "seats": 76,
+        "percent": 35.7
+      },
+      {
+        "name": "Freie Wähler",
+        "seats": 0,
+        "percent": 0.7
+      },
+      {
+        "name": "SPD",
+        "seats": 56,
+        "percent": 26.7
       },
       {
         "name": "AfD",
-        "seats": 40,
-        "percent": 10
-      }
+        "seats": 12,
+        "percent": 5.4
+      },
+      {
+        "name": "FDP",
+        "seats": 12,
+        "percent": 5.9
+      },
+      {
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 39,
+        "percent": 18.2
+      },
+      {
+        "name": "DIE LINKE",
+        "seats": 0,
+        "percent": 2.1
+      },
+      {
+        "name": "Bündnis Sahra Wagenknecht",
+        "seats": 0,
+        "percent": 0
+      },
+      {
+        "name": "Sonstige",
+        "seats": 0,
+        "percent": 6.1
+      },  
     ],
+    "lastVoteDate": "2022",
+    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
     "seatsTotal": 100,
-    "lastVoteDate": "01.01.1970"
   },
   "de-ni": {
     "name": "Niedersachsen",
@@ -217,19 +335,55 @@
       }
     ],
     "seats": [
-      {
+     {
         "name": "CDU",
-        "seats": 20,
-        "percent": 10
+        "seats": 47,
+        "percent": 28.1
+      },
+      {
+        "name": "Freie Wähler",
+        "seats": 0,
+        "percent": 0.8
+      },
+      {
+        "name": "SPD",
+        "seats": 57,
+        "percent": 33.4
       },
       {
         "name": "AfD",
-        "seats": 40,
-        "percent": 10
-      }
+        "seats": 18,
+        "percent": 11
+      },
+      {
+        "name": "FDP",
+        "seats": 0,
+        "percent": 4.7
+      },
+      {
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 24,
+        "percent": 14.5
+      },
+      {
+        "name": "DIE LINKE",
+        "seats": 0,
+        "percent": 2.7
+      },
+      {
+        "name": "Bündnis Sahra Wagenknecht",
+        "seats": 0,
+        "percent": 0
+      },
+      {
+        "name": "Sonstige",
+        "seats": 0,
+        "percent": 4.8
+      },  
     ],
+    "lastVoteDate": "2022",
+    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
     "seatsTotal": 100,
-    "lastVoteDate": "01.01.1970"
   },
   "de-sh": {
     "name": "Schleswig-Holstein",
@@ -248,15 +402,25 @@
       }
     ],
     "seats": [
-      {
+       {
         "name": "CDU",
-        "seats": 20,
-        "percent": 10
+        "seats": 34,
+        "percent": 43.4
+      },
+      {
+        "name": "Freie Wähler",
+        "seats": 0,
+        "percent": 0.8
+      },
+      {
+        "name": "SPD",
+        "seats": 57,
+        "percent": 33.4
       },
       {
         "name": "AfD",
-        "seats": 40,
-        "percent": 10
+        "seats": 18,
+        "percent": 11
       }
     ],
     "seatsTotal": 100,
@@ -268,27 +432,34 @@
     "population": 1000000,
     "government": [
       {
-        "name": "Ministerpräsidentin",
-        "party": "SPD",
-        "current": "Manuela Schwesig"
+        "name": "FDP",
+        "seats": 0,
+        "percent": 4.7
       },
       {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "DIE LINKE",
-        "current": "Max Mustermann"
-      }
-    ],
-    "seats": [
-      {
-        "name": "CDU",
-        "seats": 20,
-        "percent": 10
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 24,
+        "percent": 14.5
       },
       {
-        "name": "AfD",
-        "seats": 40,
-        "percent": 10
-      }
+        "name": "DIE LINKE",
+        "seats": 0,
+        "percent": 2.7
+      },
+      {
+        "name": "Bündnis Sahra Wagenknecht",
+        "seats": 0,
+        "percent": 0
+      },
+      {
+        "name": "Südschleswigscher Wählerverband",
+        "seats": 0
+        "percent": 5.7
+      {
+        "name": "Sonstige",
+        "seats": 0,
+        "percent": 3.4
+      },  
     ],
     "seatsTotal": 100,
     "lastVoteDate": "01.01.1970"
@@ -568,6 +739,12 @@
     },
     "Parteilos": {
       "color": "#827f7f"
+    },
+     "Sonstige": {
+      "color": "#083c64"
+    },
+     "Südschleswigscher Wählerverband": {
+       "color": "#185787"
     },
     "DIE LINKE": {
       "color": "#ff0000"
