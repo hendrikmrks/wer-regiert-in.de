@@ -179,11 +179,11 @@
         "name": "Sonstige",
         "seats": 0,
         "percent": 5.7
-      },  
+      }
     ],
     "lastVoteDate": "2021",
-    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
-    "seatsTotal": 100,
+    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet.",
+    "seatsTotal": 100
   },
   "de-he": {
     "name": "Hessen",
@@ -199,7 +199,7 @@
         "name": "stellvertretender Ministerpräsident",
         "party": "SPD",
         "current": "Max Mustermann"
-      },
+      }
     ],
     "seats": [
        {
@@ -246,10 +246,10 @@
         "name": "Sonstige",
         "seats": 0,
         "percent": 5.5
-      },  
+      }
     ],
-    "lastVoteDate": "2023"
-    "seatsTotal": 100,
+    "lastVoteDate": "2023",
+    "seatsTotal": 100
   },
   "de-nw": {
     "name": "Nordrhein-Westfalen",
@@ -312,11 +312,11 @@
         "name": "Sonstige",
         "seats": 0,
         "percent": 6.1
-      },  
+      }
     ],
     "lastVoteDate": "2022",
-    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
-    "seatsTotal": 100,
+    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet.",
+    "seatsTotal": 100
   },
   "de-ni": {
     "name": "Niedersachsen",
@@ -379,11 +379,11 @@
         "name": "Sonstige",
         "seats": 0,
         "percent": 4.8
-      },  
+      }
     ],
     "lastVoteDate": "2022",
-    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
-    "seatsTotal": 100,
+    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet.",
+    "seatsTotal": 100
   },
   "de-sh": {
     "name": "Schleswig-Holstein",
