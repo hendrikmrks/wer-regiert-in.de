@@ -30,7 +30,6 @@ const GermanyMap = () => {
             const stateInfo = statesData[stateId] || { name: stateId };
             const stateName = stateInfo.name;
             const landColor = statesData["parties"][statesData[stateId]["government"][0]["party"]]["color"]
-            //console.log(statesData["parties"][statesData[stateId]["government"][0]["party"]]["color"]);
 
             return (
               <path
