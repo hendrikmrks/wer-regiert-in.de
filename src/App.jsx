@@ -28,7 +28,7 @@ function App() {
         <GermanyMap />
       </main>
       <footer>
-        <p>Diese Karte kann Fehler enthalten und wurde zuletzt am {lastUpdate} aktualisiert</p>
+        <p>Diese Karte kann Fehler enthalten und wurde zuletzt am {lastUpdate} aktualisiert.</p>
         <p>Made by Hendrik Beier, Nikolas Miksiewicz, Marc Wachsmann</p>
       </footer>
     </div>

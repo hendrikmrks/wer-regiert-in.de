@@ -1,13 +1,13 @@
 import { useEffect } from 'react';
 import calculateMap from "./calculateMap.jsx";
-import fetchGermanyGeoData from "../data/fetchGeoData.js";
+import bundeslaender from "../data/bundeslaender.geo.json";
 
 export default function useLoadGeoData(svgPaths, setSvgPaths) {
     const {calculateBounds, generateSvgPath, } = calculateMap();
     useEffect(() => {
         const loadGeoData = async () => {
             try {
-                const germanyGeoData = await fetchGermanyGeoData();
+                const germanyGeoData = bundeslaender;
                 if (!germanyGeoData) {
                     throw new Error("Fehler beim Laden der GeoJSON-Daten");
                 }
