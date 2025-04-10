@@ -10,10 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@number-flow/react": "^0.5.9",
     "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
     "d3-geo": "^3.1.1",
+    "number-flow": "^0.5.7",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.9",
+    "react-bootstrap-icons": "^1.11.5",
     "react-dom": "^19.0.0",
     "topojson-client": "^3.1.0"
   },

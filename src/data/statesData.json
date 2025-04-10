@@ -8,46 +8,120 @@
         "name": "Ministerpräsident",
         "party": "CSU",
         "current": "Dr. Markus Söder"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Freie Wähler",
-        "current": "Max Mustermann"
       }
     ],
-    "ministries": [
+    "seats": [
       {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
+        "name": "CSU",
+        "seats": 85,
+        "percent": 37
+      },
+      {
+        "name": "Freie Wähler",
+        "seats": 37,
+        "percent": 15.8
+      },
+      {
+        "name": "SPD",
+        "seats": 17,
+        "percent": 8.4
+      },
+      {
+        "name": "AfD",
+        "seats": 32,
+        "percent": 14.6
+      },
+      {
+        "name": "FDP",
+        "seats": 0,
+        "percent": 3
+      },
+      {
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 32,
+        "percent": 14.4
+      },
+      {
+        "name": "DIE LINKE",
+        "seats": 0,
+        "percent": 1.5
+      },
+      {
+        "name": "Bündnis Sahra Wagenknecht",
+        "seats": 0,
+        "percent": 0
+      },
+      {
+        "name": "Sonstige",
+        "seats": 0,
+        "percent": 4.8
       }
-    ]
+    ],
+    "lastVoteDate": "2023",
+    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet.",
+    "seatsTotal": 100
   },
   "de-bw": {
     "name": "Baden-Württemberg",
     "capital": "Stuttgart",
-    "population": 1000000,
+    "population": 11280000,
     "government": [
       {
         "name": "Ministerpräsident",
         "party": "Bündnis 90/Die Grünen",
         "current": "Winfried Kretschmann"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "CDU",
-        "current": "Max Mustermann"
       }
     ],
-    "ministries": [
+    "seats": [
       {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
+        "name": "CDU",
+        "seats": 42,
+        "percent": 24.1
+      },
+      {
+        "name": "Freie Wähler",
+        "seats": 0,
+        "percent": 3
+      },
+      {
+        "name": "SPD",
+        "seats": 19,
+        "percent": 11
+      },
+      {
+        "name": "AfD",
+        "seats": 17,
+        "percent": 9.7
+      },
+      {
+        "name": "FDP",
+        "seats": 18,
+        "percent": 10.5
+      },
+      {
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 58,
+        "percent": 32.6
+      },
+      {
+        "name": "DIE LINKE",
+        "seats": 0,
+        "percent": 3.6
+      },
+      {
+        "name": "Bündnis Sahra Wagenknecht",
+        "seats": 0,
+        "percent": 0
+      },
+      {
+        "name": "Sonstige",
+        "seats": 0,
+        "percent": 5.5
       }
-    ]
+    ],
+    "lastVoteDate": "2021",
+    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet.",
+    "seatsTotal": 100
   },
   "de-rp": {
     "name": "Rheinland-Pfalz",
@@ -58,21 +132,58 @@
         "name": "Ministerpräsident",
         "party": "SPD",
         "current": "Alexander Schweitzer"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "CDU",
-        "current": "Max Mustermann"
       }
     ],
-    "ministries": [
+    "seats": [
       {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
+        "name": "CDU",
+        "seats": 31,
+        "percent": 27.7
+      },
+      {
+        "name": "Freie Wähler",
+        "seats": 6,
+        "percent": 5.4
+      },
+      {
+        "name": "SPD",
+        "seats": 39,
+        "percent": 35.7
+      },
+      {
+        "name": "AfD",
+        "seats": 9,
+        "percent": 8.3
+      },
+      {
+        "name": "FDP",
+        "seats": 6,
+        "percent": 5.5
+      },
+      {
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 10,
+        "percent": 9.3
+      },
+      {
+        "name": "DIE LINKE",
+        "seats": 0,
+        "percent": 2.5
+      },
+      {
+        "name": "Bündnis Sahra Wagenknecht",
+        "seats": 0,
+        "percent": 0
+      },
+      {
+        "name": "Sonstige",
+        "seats": 0,
+        "percent": 5.7
       }
-    ]
+    ],
+    "lastVoteDate": "2021",
+    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet.",
+    "seatsTotal": 100
   },
   "de-he": {
     "name": "Hessen",
@@ -90,14 +201,55 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
+    "seats": [
+       {
+        "name": "CDU",
+        "seats": 52,
+        "percent": 34.6
+      },
       {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
+        "name": "Freie Wähler",
+        "seats": 0,
+        "percent": 3.5
+      },
+      {
+        "name": "SPD",
+        "seats": 23,
+        "percent": 15.1
+      },
+      {
+        "name": "AfD",
+        "seats": 28,
+        "percent": 18.4
+      },
+      {
+        "name": "FDP",
+        "seats": 8,
+        "percent": 5
+      },
+      {
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 22,
+        "percent": 14.8
+      },
+      {
+        "name": "DIE LINKE",
+        "seats": 0,
+        "percent": 2.5
+      },
+      {
+        "name": "Bündnis Sahra Wagenknecht",
+        "seats": 0,
+        "percent": 3.1
+      },
+      {
+        "name": "Sonstige",
+        "seats": 0,
+        "percent": 5.5
       }
-    ]
+    ],
+    "lastVoteDate": "2023",
+    "seatsTotal": 100
   },
   "de-nw": {
     "name": "Nordrhein-Westfalen",
@@ -115,14 +267,56 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
+    "seats": [
       {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
+        "name": "CDU",
+        "seats": 76,
+        "percent": 35.7
+      },
+      {
+        "name": "Freie Wähler",
+        "seats": 0,
+        "percent": 0.7
+      },
+      {
+        "name": "SPD",
+        "seats": 56,
+        "percent": 26.7
+      },
+      {
+        "name": "AfD",
+        "seats": 12,
+        "percent": 5.4
+      },
+      {
+        "name": "FDP",
+        "seats": 12,
+        "percent": 5.9
+      },
+      {
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 39,
+        "percent": 18.2
+      },
+      {
+        "name": "DIE LINKE",
+        "seats": 0,
+        "percent": 2.1
+      },
+      {
+        "name": "Bündnis Sahra Wagenknecht",
+        "seats": 0,
+        "percent": 0
+      },
+      {
+        "name": "Sonstige",
+        "seats": 0,
+        "percent": 6.1
       }
-    ]
+    ],
+    "lastVoteDate": "2022",
+    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet.",
+    "seatsTotal": 100
   },
   "de-ni": {
     "name": "Niedersachsen",
@@ -140,14 +334,56 @@
         "current": "Julia Willie Hamburg"
       }
     ],
-    "ministries": [
+    "seats": [
+     {
+        "name": "CDU",
+        "seats": 47,
+        "percent": 28.1
+      },
       {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
+        "name": "Freie Wähler",
+        "seats": 0,
+        "percent": 0.8
+      },
+      {
+        "name": "SPD",
+        "seats": 57,
+        "percent": 33.4
+      },
+      {
+        "name": "AfD",
+        "seats": 18,
+        "percent": 11
+      },
+      {
+        "name": "FDP",
+        "seats": 0,
+        "percent": 4.7
+      },
+      {
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 24,
+        "percent": 14.5
+      },
+      {
+        "name": "DIE LINKE",
+        "seats": 0,
+        "percent": 2.7
+      },
+      {
+        "name": "Bündnis Sahra Wagenknecht",
+        "seats": 0,
+        "percent": 0
+      },
+      {
+        "name": "Sonstige",
+        "seats": 0,
+        "percent": 4.8
       }
-    ]
+    ],
+    "lastVoteDate": "2022",
+    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet.",
+    "seatsTotal": 100
   },
   "de-sh": {
     "name": "Schleswig-Holstein",
@@ -165,14 +401,30 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
+    "seats": [
+       {
+        "name": "CDU",
+        "seats": 34,
+        "percent": 43.4
+      },
       {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
+        "name": "Freie Wähler",
+        "seats": 0,
+        "percent": 0.8
+      },
+      {
+        "name": "SPD",
+        "seats": 57,
+        "percent": 33.4
+      },
+      {
+        "name": "AfD",
+        "seats": 18,
+        "percent": 11
       }
-    ]
+    ],
+    "seatsTotal": 100,
+    "lastVoteDate": "01.01.1970"
   },
   "de-mv": {
     "name": "Mecklenburg-Vorpommern",
@@ -180,24 +432,50 @@
     "population": 1000000,
     "government": [
       {
-        "name": "Ministerpräsidentin",
-        "party": "SPD",
-        "current": "Manuela Schwesig"
+        "name": "Ministerpräsident",
+        "party": "CDU",
+        "current": "Daniel Günther"
       },
       {
         "name": "stellvertretender Ministerpräsident",
-        "party": "DIE LINKE",
+        "party": "Bündnis 90/Die Grünen",
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
+    "seats": [
       {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
+        "name": "FDP",
+        "seats": 0,
+        "percent": 4.7
+      },
+      {
+        "name": "Bündnis 90/Die Grünen",
+        "seats": 24,
+        "percent": 14.5
+      },
+      {
+        "name": "DIE LINKE",
+        "seats": 0,
+        "percent": 2.7
+      },
+      {
+        "name": "Bündnis Sahra Wagenknecht",
+        "seats": 0,
+        "percent": 0
+      },
+      {
+        "name": "Südschleswigscher Wählerverband",
+        "seats": 0,
+        "percent": 5.7
+      },
+      {
+        "name": "Sonstige",
+        "seats": 0,
+        "percent": 3.4
       }
-    ]
+    ],
+    "seatsTotal": 100,
+    "lastVoteDate": "01.01.1970"
   },
   "de-bb": {
     "name": "Brandenburg",
@@ -215,14 +493,20 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
+    "seats": [
       {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
       }
-    ]
+    ],
+    "seatsTotal": 100,
+    "lastVoteDate": "01.01.1970"
   },
   "de-be": {
     "name": "Berlin",
@@ -240,14 +524,20 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
+    "seats": [
       {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
       }
-    ]
+    ],
+    "seatsTotal": 100,
+    "lastVoteDate": "01.01.1970"
   },
   "de-st": {
     "name": "Sachsen-Anhalt",
@@ -265,14 +555,20 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
+    "seats": [
       {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
       }
-    ]
+    ],
+    "seatsTotal": 100,
+    "lastVoteDate": "01.01.1970"
   },
   "de-th": {
     "name": "Thüringen",
@@ -290,14 +586,20 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
+    "seats": [
       {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
       }
-    ]
+    ],
+    "seatsTotal": 100,
+    "lastVoteDate": "01.01.1970"
   },
   "de-sn": {
     "name": "Sachsen",
@@ -315,14 +617,20 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
+    "seats": [
       {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
       }
-    ]
+    ],
+    "seatsTotal": 100,
+    "lastVoteDate": "01.01.1970"
   },
   "de-sl": {
     "name": "Saarland",
@@ -340,14 +648,20 @@
         "current": "Jürgen Barke"
       }
     ],
-    "ministries": [
+    "seats": [
       {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
       }
-    ]
+    ],
+    "seatsTotal": 100,
+    "lastVoteDate": "01.01.1970"
   },
   "de-hh": {
     "name": "Hamburg",
@@ -365,14 +679,20 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
+    "seats": [
       {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
       }
-    ]
+    ],
+    "seatsTotal": 100,
+    "lastVoteDate": "01.01.1970"
   },
   "de-hb": {
     "name": "Bremen",
@@ -390,30 +710,36 @@
         "current": "Max Mustermann"
       }
     ],
-    "ministries": [
+    "seats": [
       {
-        "name": "Dummy Ministerium",
-        "address": "Musterstraße 1, 80333 München",
-        "current": "Max Mustermann",
-        "party": "CDU"
+        "name": "CDU",
+        "seats": 20,
+        "percent": 10
+      },
+      {
+        "name": "AfD",
+        "seats": 40,
+        "percent": 10
       }
-    ]
+    ],
+    "seatsTotal": 100,
+    "lastVoteDate": "01.01.1970"
   },
   "parties": {
     "CDU": {
-      "color": "#c3bfc5"
+      "color": "#0a0a0a"
     },
     "CSU": {
-      "color": "#c3bfc5"
+      "color": "#02d4db"
     },
     "SPD": {
-      "color": "#ff5733"
+      "color": "#f70509"
     },
     "FDP": {
-      "color": "#ff5733"
+      "color": "#e0f542"
     },
     "Bündnis 90/Die Grünen": {
-      "color": "#ff5733"
+      "color": "#37de04"
     },
     "AfD": {
       "color": "#ff5733"
@@ -423,6 +749,18 @@
     },
     "Bündnis Sahra Wagenknecht": {
       "color": "#9308cb"
+    },
+    "Parteilos": {
+      "color": "#827f7f"
+    },
+    "Sonstige": {
+      "color": "#083c64"
+    },
+    "Südschleswigscher Wählerverband": {
+       "color": "#185787"
+    },
+    "DIE LINKE": {
+      "color": "#ff0000"
     }
   }
 }
