@@ -1,5 +1,6 @@
 import React from 'react';
-import { Modal as BootstrapModal, Table, Row, Col, Card, Button, Alert } from 'react-bootstrap';
+import { Table, Row, Col, Card, Button, Alert, ProgressBar } from 'react-bootstrap';
+import Modal from 'react-bootstrap/Modal';
 import formatNumber from '../hooks/useFormatNumbers.jsx';
 import * as Icon from 'react-bootstrap-icons';
 
@@ -12,11 +13,11 @@ const StateModal = ({
     return (
         <>
             {selectedState ? (
-                <BootstrapModal size="lg" show={show} onHide={handleClosePopUp}>
-                    <BootstrapModal.Header closeButton>
-                        <BootstrapModal.Title>{statesData[selectedState]?.name} ({statesData[selectedState]?.capital})</BootstrapModal.Title>
-                    </BootstrapModal.Header>
-                    <BootstrapModal.Body>
+                <Modal size="lg" show={show} onHide={handleClosePopUp}>
+                    <Modal.Header closeButton>
+                        <Modal.Title>{statesData[selectedState]?.name} ({statesData[selectedState]?.capital})</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
                         <Table bordered hover>
                             <tbody>
                             <tr>
@@ -84,13 +85,13 @@ const StateModal = ({
                         ):null}
 
                         <Icon.Calendar /> Letzte Wahl: {statesData[selectedState]?.lastVoteDate}
-                    </BootstrapModal.Body>
-                    <BootstrapModal.Footer>
+                    </Modal.Body>
+                    <Modal.Footer>
                         <Button variant="secondary" onClick={handleClosePopUp}>
                             Schließen
                         </Button>
-                    </BootstrapModal.Footer>
-                </BootstrapModal>
+                    </Modal.Footer>
+                </Modal>
             ) : null}
         </>
     );
