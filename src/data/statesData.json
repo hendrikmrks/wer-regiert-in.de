@@ -727,40 +727,40 @@
   },
   "parties": {
     "CDU": {
-      "color": "#0a0a0a"
+      "color": "#1E1E1E"
     },
     "CSU": {
-      "color": "#02d4db"
+      "color": "#0080c8"
     },
     "SPD": {
-      "color": "#f70509"
+      "color": "#d0000e"
     },
     "FDP": {
-      "color": "#e0f542"
+      "color": "#f7bc3d"
     },
     "Bündnis 90/Die Grünen": {
-      "color": "#37de04"
+      "color": "#19a229"
     },
     "AfD": {
-      "color": "#ff5733"
+      "color": "#80cdec"
     },
     "Freie Wähler": {
-      "color": "#ea4623"
+      "color": "#0076b6"
     },
     "Bündnis Sahra Wagenknecht": {
-      "color": "#9308cb"
+      "color": "#cd386c"
     },
     "Parteilos": {
-      "color": "#827f7f"
+      "color": "#eeeeee"
     },
     "Sonstige": {
-      "color": "#083c64"
+      "color": "#d3d3d3"
     },
     "Südschleswigscher Wählerverband": {
-       "color": "#185787"
+      "color": "#003990"
     },
     "DIE LINKE": {
-      "color": "#ff0000"
+      "color": "#6f003b"
     }
   }
 }

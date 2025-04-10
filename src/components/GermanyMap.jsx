@@ -36,7 +36,7 @@ const GermanyMap = () => {
                 key={stateId}
                 d={svgPaths[stateId]}
                 fill={selectedState === stateId ? "#d1e0f5" : landColor }
-                stroke="#333"
+                stroke="#bbbbbb"
                 strokeWidth="2"
                 onClick={() => {
                   handleStateClick(stateId);
