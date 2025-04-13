@@ -3,6 +3,7 @@
     "name": "Bayern",
     "capital": "München",
     "population": 13176000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -65,6 +66,7 @@
     "name": "Baden-Württemberg",
     "capital": "Stuttgart",
     "population": 11280000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -126,7 +128,7 @@
   "de-rp": {
     "name": "Rheinland-Pfalz",
     "capital": "Mainz",
-    "population": 4200000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -189,16 +191,12 @@
     "name": "Hessen",
     "capital": "Wiesbaden",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Boris Rhein"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "SPD",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -255,16 +253,12 @@
     "name": "Nordrhein-Westfalen",
     "capital": "Düsseldorf",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Hendrik Wüst"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Bündnis 90/Die Grünen",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -322,16 +316,12 @@
     "name": "Niedersachsen",
     "capital": "Hannover",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
         "party": "SPD",
         "current": "Stephan Weil"
-      },
-      {
-        "name": "Vize-Ministerpräsidentin",
-        "party": "Bündnis 90/Die Grünen",
-        "current": "Julia Willie Hamburg"
       }
     ],
     "seats": [
@@ -389,16 +379,12 @@
     "name": "Schleswig-Holstein",
     "capital": "Kiel",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Daniel Günther"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Bündnis 90/Die Grünen",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -461,16 +447,12 @@
     "name": "Mecklenburg-Vorpommern",
     "capital": "Schwerin",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Daniel Günther"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Bündnis 90/Die Grünen",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -528,16 +510,12 @@
     "name": "Brandenburg",
     "capital": "Potsdam",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
         "party": "SPD",
         "current": "Hubert Dietmar Woidke"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Bündnis Sahra Wagenknecht",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -594,16 +572,12 @@
     "name": "Berlin",
     "capital": "Berlin",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Regierender Bürgermeister",
         "party": "CDU",
         "current": "Kai Wegner"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "SPD",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -661,16 +635,12 @@
     "name": "Sachsen-Anhalt",
     "capital": "Magdeburg",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Dr. Reiner Haseloff"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "CDU",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -728,16 +698,12 @@
     "name": "Thüringen",
     "capital": "Erfurt",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Mario Voigt"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "CDU",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -794,16 +760,12 @@
     "name": "Sachsen",
     "capital": "Dresden",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Michael Kretschmer"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "SPD",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -860,16 +822,12 @@
     "name": "Saarland",
     "capital": "Saarbrücken",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
         "party": "SPD",
         "current": "Anke Rehlinger"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "SPD",
-        "current": "Jürgen Barke"
       }
     ],
     "seats": [
@@ -927,16 +885,12 @@
     "name": "Hamburg",
     "capital": "Hamburg",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Erster Bürgermeister",
         "party": "SPD",
         "current": "Dr. Peter Tschentscher"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Bündnis 90/Die Grünen",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -993,16 +947,12 @@
     "name": "Bremen",
     "capital": "Bremen",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Bürgermeister",
         "party": "SPD",
         "current": "Dr. Andreas Bovenschulte"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "CDU",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -1063,43 +1013,56 @@
   },
   "parties": {
     "CDU": {
-      "color": "#0a0a0a"
+      "color": "#1E1E1E",
+      "background-color": "#d9d9d9"
     },
     "CSU": {
-      "color": "#02d4db"
+      "color": "#0080c8",
+      "background-color": "#cceaf8"
     },
     "SPD": {
-      "color": "#f70509"
+      "color": "#d0000e",
+      "background-color": "#f6c5c8"
     },
     "FDP": {
-      "color": "#e0f542"
+      "color": "#f7bc3d",
+      "background-color": "#fff1cd"
     },
     "Bündnis 90/Die Grünen": {
-      "color": "#37de04"
+      "color": "#19a229",
+      "background-color": "#c7efcc"
     },
     "AfD": {
-      "color": "#ff5733"
+      "color": "#80cdec",
+      "background-color": "#e2f4fb"
     },
     "Freie Wähler": {
-      "color": "#ea4623"
+      "color": "#0076b6",
+      "background-color": "#cce5f3"
     },
     "Bündnis Sahra Wagenknecht": {
-      "color": "#9308cb"
+      "color": "#cd386c",
+      "background-color": "#f7c5d4"
     },
     "Parteilos": {
-      "color": "#827f7f"
+      "color": "#eeeeee",
+      "background-color": "#f7f7f7"
     },
     "Sonstige": {
-      "color": "#083c64"
+      "color": "#d3d3d3",
+      "background-color": "#eeeeee"
     },
     "Südschleswigscher Wählerverband": {
-       "color": "#185787"
+      "color": "#003990",
+      "background-color": "#c7d4f2"
     },
     "Bürger in Wut": {
-       "color": "#216da7"  
+       "color": "#216da7",  
+       "background-color": "#216da7"
     },
     "DIE LINKE": {
-      "color": "#ff0000"
+      "color": "#ff0000",
+      "background-color": "#ff0000"
     }
-  }
+  }  
 }

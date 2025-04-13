@@ -3,6 +3,8 @@ import { Table, Row, Col, Card, Button, Alert, ProgressBar } from 'react-bootstr
 import Modal from 'react-bootstrap/Modal';
 import * as Icon from 'react-bootstrap-icons';
 import SeatsDiagram from "./SeatsDiagram.jsx";
+import Coalition from "./Coalition.jsx";
+
 
 const StateModal = ({
                         selectedState,
@@ -18,6 +20,7 @@ const StateModal = ({
                         <Modal.Title>{statesData[selectedState]?.name} ({statesData[selectedState]?.capital})</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
+                        <Coalition state={statesData[selectedState]} colors={statesData["parties"]} />
                         <Row>
                             {statesData[selectedState]?.government.map((gov, index) => (
                                 <Col sm={6} className="mb-4" key={`gov-${index}`}>
