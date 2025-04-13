@@ -3,6 +3,7 @@
     "name": "Bayern",
     "capital": "München",
     "population": 13176000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -65,6 +66,7 @@
     "name": "Baden-Württemberg",
     "capital": "Stuttgart",
     "population": 11280000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -127,6 +129,7 @@
     "name": "Rheinland-Pfalz",
     "capital": "Mainz",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -189,6 +192,7 @@
     "name": "Hessen",
     "capital": "Wiesbaden",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -255,6 +259,7 @@
     "name": "Nordrhein-Westfalen",
     "capital": "Düsseldorf",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -322,6 +327,7 @@
     "name": "Niedersachsen",
     "capital": "Hannover",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -389,6 +395,7 @@
     "name": "Schleswig-Holstein",
     "capital": "Kiel",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -461,6 +468,7 @@
     "name": "Mecklenburg-Vorpommern",
     "capital": "Schwerin",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -528,6 +536,7 @@
     "name": "Brandenburg",
     "capital": "Potsdam",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -594,6 +603,7 @@
     "name": "Berlin",
     "capital": "Berlin",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Regierender Bürgermeister",
@@ -661,6 +671,7 @@
     "name": "Sachsen-Anhalt",
     "capital": "Magdeburg",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -728,6 +739,7 @@
     "name": "Thüringen",
     "capital": "Erfurt",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -794,6 +806,7 @@
     "name": "Sachsen",
     "capital": "Dresden",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -860,6 +873,7 @@
     "name": "Saarland",
     "capital": "Saarbrücken",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -927,6 +941,7 @@
     "name": "Hamburg",
     "capital": "Hamburg",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Erster Bürgermeister",
@@ -993,6 +1008,7 @@
     "name": "Bremen",
     "capital": "Bremen",
     "population": 1000000,
+    "coalition": ["CSU", "SPD"],
     "government": [
       {
         "name": "Bürgermeister",
