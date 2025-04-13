@@ -1108,9 +1108,11 @@
     },
     "Bürger in Wut": {
        "color": "#216da7"  
+       "background-color": "#216da7"
     },
     "DIE LINKE": {
       "color": "#ff0000"
+      "background-color": "#ff0000"
     }
   }  
 }
