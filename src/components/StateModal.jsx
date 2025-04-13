@@ -1,8 +1,9 @@
 import React from 'react';
 import { Table, Row, Col, Card, Button, Alert, ProgressBar } from 'react-bootstrap';
 import Modal from 'react-bootstrap/Modal';
-import formatNumber from '../hooks/useFormatNumbers.jsx';
 import * as Icon from 'react-bootstrap-icons';
+import SeatsDiagram from "./SeatsDiagram.jsx";
+import Coalition from "./Coalition.jsx";
 
 const StateModal = ({
                         selectedState,
@@ -18,17 +19,7 @@ const StateModal = ({
                         <Modal.Title>{statesData[selectedState]?.name} ({statesData[selectedState]?.capital})</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                        <Table bordered hover>
-                            <tbody>
-                            <tr>
-                                <td>Einwohnerzahl</td>
-                                <td>
-                                    {formatNumber(statesData[selectedState]?.population)}
-                                </td>
-                            </tr>
-                            </tbody>
-                        </Table>
-
+                        <Coalition state={statesData[selectedState]} colors={statesData["parties"]} />
                         <Row>
                             {statesData[selectedState]?.government.map((gov, index) => (
                                 <Col sm={6} className="mb-4" key={`gov-${index}`}>
@@ -49,6 +40,12 @@ const StateModal = ({
                                     </Card>
                                 </Col>
                             ))}
+                        </Row>
+
+                        <Row>
+                            <Col className="mb-4">
+                                <SeatsDiagram state={statesData[selectedState]} colors={statesData["parties"]} />
+                            </Col>
                         </Row>
 
                         <Row>

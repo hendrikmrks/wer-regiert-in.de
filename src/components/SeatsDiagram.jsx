@@ -1,0 +1,55 @@
+import React, { useEffect, useState } from 'react';
+import { PieChart, Pie, Cell, Legend, Tooltip } from 'recharts';
+
+const SeatsDiagram = ({state, colors}) => {
+
+    // State-Hook zur Steuerung der Sichtbarkeit
+    const [isVisible, setIsVisible] = useState(false);
+
+    // Chart-Größe als State
+    const [chartSize, setChartSize] = useState({ width: 400, height: 300 });
+
+    // Nur Parteien mit Sitzen im Landtag anzeigen
+    const data = state.seats.filter(party => party.seats > 0);
+
+    // useEffect für Delay beim Rendern, um Modal-Probleme zu umgehen
+    useEffect(() => {
+        // Kurze Verzögerung, um sicherzustellen, dass das Modal gerendert ist
+        const timer = setTimeout(() => {
+            setIsVisible(true);
+        }, 300);
+
+        return () => clearTimeout(timer);
+    }, []);
+
+    if (!isVisible) {
+        return <div className="text-center p-4">Diagramm wird geladen...</div>;
+    }
+
+    return (
+        <PieChart width={chartSize.width} height={chartSize.height}>
+            <Pie
+                data={data}
+                cx={chartSize.width / 2}
+                cy={chartSize.height / 2}
+                labelLine={false}
+                label={false}
+                outerRadius={Math.min(chartSize.width, chartSize.height) / 3}
+                fill="#8884d8"
+                dataKey="seats"
+                nameKey="name"
+            >
+                {data.map((entry, index) => (
+                    <Cell
+                        key={`cell-${index}`}
+                        fill={colors[entry.name]?.color || "#999999"}
+                    />
+                ))}
+            </Pie>
+            <Tooltip formatter={(value, label) => [`${label} : ${value}`]} />
+            <Legend/>
+        </PieChart>
+    );
+};
+
+export default SeatsDiagram;
