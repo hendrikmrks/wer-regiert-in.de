@@ -194,11 +194,6 @@
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Boris Rhein"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "SPD",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -260,11 +255,6 @@
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Hendrik Wüst"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Bündnis 90/Die Grünen",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -327,11 +317,6 @@
         "name": "Ministerpräsident",
         "party": "SPD",
         "current": "Stephan Weil"
-      },
-      {
-        "name": "Vize-Ministerpräsidentin",
-        "party": "Bündnis 90/Die Grünen",
-        "current": "Julia Willie Hamburg"
       }
     ],
     "seats": [
@@ -394,11 +379,6 @@
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Daniel Günther"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Bündnis 90/Die Grünen",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -466,11 +446,6 @@
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Daniel Günther"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Bündnis 90/Die Grünen",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -533,11 +508,6 @@
         "name": "Ministerpräsident",
         "party": "SPD",
         "current": "Hubert Dietmar Woidke"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Bündnis Sahra Wagenknecht",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -599,11 +569,6 @@
         "name": "Regierender Bürgermeister",
         "party": "CDU",
         "current": "Kai Wegner"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "SPD",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -666,11 +631,6 @@
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Dr. Reiner Haseloff"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "CDU",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -733,11 +693,6 @@
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Mario Voigt"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "CDU",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -799,11 +754,6 @@
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Michael Kretschmer"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "SPD",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -865,11 +815,6 @@
         "name": "Ministerpräsident",
         "party": "SPD",
         "current": "Anke Rehlinger"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "SPD",
-        "current": "Jürgen Barke"
       }
     ],
     "seats": [
@@ -932,11 +877,6 @@
         "name": "Erster Bürgermeister",
         "party": "SPD",
         "current": "Dr. Peter Tschentscher"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Bündnis 90/Die Grünen",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -998,11 +938,6 @@
         "name": "Bürgermeister",
         "party": "SPD",
         "current": "Dr. Andreas Bovenschulte"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "CDU",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
