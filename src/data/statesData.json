@@ -126,7 +126,7 @@
   "de-rp": {
     "name": "Rheinland-Pfalz",
     "capital": "Mainz",
-    "population": 1000000,
+    "population": 4200000,
     "government": [
       {
         "name": "Ministerpräsident",
@@ -1059,7 +1059,7 @@
     ],
     "seatsTotal": 87,
     "lastVoteDate": "2023",
-    "notes": "BSW war zu diesem Zeitpunkt noch nicht gegründet. AfD hat durch eines Auschlusses aufgrund der Einreichung zweier Kandidatenlisten an der Wahl nicht teilgenommen."
+    "notes": "BSW war zu diesem Zeitpunkt noch nicht gegründet. AfD hat wegen eines Auschlusses aufgrund der Einreichung zweier Kandidatenlisten an der Wahl nicht teilgenommen."
   },
   "parties": {
     "CDU": {
