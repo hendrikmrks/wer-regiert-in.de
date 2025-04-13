@@ -451,10 +451,10 @@
         "name": "Sonstige",
         "seats": 0,
         "percent": 3.3
-      },
+      }
     ],
     "seatsTotal": 69,
-    "lastVoteDate": "2022"
+    "lastVoteDate": "2022",
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
   },
   "de-mv": {
@@ -518,10 +518,10 @@
         "name": "Sonstige",
         "seats": 0,
         "percent": 7.3
-      },
+      }
     ],
     "seatsTotal": 79,
-    "lastVoteDate": "2021"
+    "lastVoteDate": "2021",
     "notes": "BSW war zu diesem Zeitpunkt noch nicht gegründet."
   },
   "de-bb": {
@@ -585,7 +585,7 @@
         "name": "Sonstige",
         "seats": 0,
         "percent": 3.79
-      },
+      }
     ],
     "seatsTotal": 88,
     "lastVoteDate": "2024"
@@ -651,11 +651,11 @@
         "name": "Sonstige",
         "seats": 0,
         "percent": 8.8
-      },
+      }
     ],
     "seatsTotal": 159,
-    "lastVoteDate": "2023"
-    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet. Wahlwiederholung von ursprünglicher Wahl 2021.
+    "lastVoteDate": "2023",
+    "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet. Wahlwiederholung von ursprünglicher Wahl 2021."
   },
   "de-st": {
     "name": "Sachsen-Anhalt",
@@ -718,10 +718,10 @@
         "name": "Sonstige",
         "seats": 0,
         "percent": 7.3
-      },
+      }
     ],
     "seatsTotal": 97,
-    "lastVoteDate": "2021"
+    "lastVoteDate": "2021",
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
   },
   "de-th": {
@@ -785,7 +785,7 @@
         "name": "Sonstige",
         "seats": 0,
         "percent": 3
-      },
+      }
     ],
     "seatsTotal": 88,
     "lastVoteDate": "2024"
@@ -851,7 +851,7 @@
         "name": "Sonstige",
         "seats": 0,
         "percent": 5.6
-      },
+      }
     ],
     "seatsTotal": 120,
     "lastVoteDate": "2024"
@@ -917,10 +917,10 @@
         "name": "Sonstige",
         "seats": 0,
         "percent": 8.3
-      },
+      }
     ],
     "seatsTotal": 51,
-    "lastVoteDate": "2022"
+    "lastVoteDate": "2022",
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
   },
   "de-hh": {
@@ -984,7 +984,7 @@
         "name": "Sonstige",
         "seats": 0,
         "percent": 5.1
-      },
+      }
     ],
     "seatsTotal": 121,
     "lastVoteDate": "2025"
@@ -1048,18 +1048,18 @@
       },
       {
         "name": "Bürger in Wut",
-        "seats": 10
+        "seats": 10,
         "percent": 9.4
       },
       {
         "name": "Sonstige",
         "seats": 0,
         "percent": 6.7
-      },
+      }
     ],
     "seatsTotal": 87,
-    "lastVoteDate": "2023"
-    "notes": "BSW war zu diesem Zeitpunkt noch nicht gegründet. AfD hat durch eines Auschlusses aufgrund der Einreichung zweier Kandidatenlisten an der Wahl nicht teilgenommen.
+    "lastVoteDate": "2023",
+    "notes": "BSW war zu diesem Zeitpunkt noch nicht gegründet. AfD hat durch eines Auschlusses aufgrund der Einreichung zweier Kandidatenlisten an der Wahl nicht teilgenommen."
   },
   "parties": {
     "CDU": {
