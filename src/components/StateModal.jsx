@@ -5,6 +5,7 @@ import * as Icon from 'react-bootstrap-icons';
 import SeatsDiagram from "./SeatsDiagram.jsx";
 import Coalition from "./Coalition.jsx";
 
+
 const StateModal = ({
                         selectedState,
                         show,
