@@ -128,7 +128,6 @@
   "de-rp": {
     "name": "Rheinland-Pfalz",
     "capital": "Mainz",
-    "population": 1000000,
     "coalition": ["CSU", "SPD"],
     "government": [
       {
@@ -198,11 +197,6 @@
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Boris Rhein"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "SPD",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -265,11 +259,6 @@
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Hendrik Wüst"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Bündnis 90/Die Grünen",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -333,11 +322,6 @@
         "name": "Ministerpräsident",
         "party": "SPD",
         "current": "Stephan Weil"
-      },
-      {
-        "name": "Vize-Ministerpräsidentin",
-        "party": "Bündnis 90/Die Grünen",
-        "current": "Julia Willie Hamburg"
       }
     ],
     "seats": [
@@ -401,11 +385,6 @@
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Daniel Günther"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Bündnis 90/Die Grünen",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -474,11 +453,6 @@
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Daniel Günther"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Bündnis 90/Die Grünen",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -542,11 +516,6 @@
         "name": "Ministerpräsident",
         "party": "SPD",
         "current": "Hubert Dietmar Woidke"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Bündnis Sahra Wagenknecht",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -609,11 +578,6 @@
         "name": "Regierender Bürgermeister",
         "party": "CDU",
         "current": "Kai Wegner"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "SPD",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -677,11 +641,6 @@
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Dr. Reiner Haseloff"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "CDU",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -745,11 +704,6 @@
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Mario Voigt"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "CDU",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -812,11 +766,6 @@
         "name": "Ministerpräsident",
         "party": "CDU",
         "current": "Michael Kretschmer"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "SPD",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -879,11 +828,6 @@
         "name": "Ministerpräsident",
         "party": "SPD",
         "current": "Anke Rehlinger"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "SPD",
-        "current": "Jürgen Barke"
       }
     ],
     "seats": [
@@ -947,11 +891,6 @@
         "name": "Erster Bürgermeister",
         "party": "SPD",
         "current": "Dr. Peter Tschentscher"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "Bündnis 90/Die Grünen",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -1014,11 +953,6 @@
         "name": "Bürgermeister",
         "party": "SPD",
         "current": "Dr. Andreas Bovenschulte"
-      },
-      {
-        "name": "stellvertretender Ministerpräsident",
-        "party": "CDU",
-        "current": "Max Mustermann"
       }
     ],
     "seats": [
@@ -1075,47 +1009,60 @@
     ],
     "seatsTotal": 87,
     "lastVoteDate": "2023",
-    "notes": "BSW war zu diesem Zeitpunkt noch nicht gegründet. AfD hat durch eines Auschlusses aufgrund der Einreichung zweier Kandidatenlisten an der Wahl nicht teilgenommen."
+    "notes": "BSW war zu diesem Zeitpunkt noch nicht gegründet. AfD hat wegen eines Auschlusses aufgrund der Einreichung zweier Kandidatenlisten an der Wahl nicht teilgenommen."
   },
   "parties": {
     "CDU": {
-      "color": "#0a0a0a"
+      "color": "#1E1E1E",
+      "background-color": "#d9d9d9"
     },
     "CSU": {
-      "color": "#02d4db"
+      "color": "#0080c8",
+      "background-color": "#cceaf8"
     },
     "SPD": {
-      "color": "#f70509"
+      "color": "#d0000e",
+      "background-color": "#f6c5c8"
     },
     "FDP": {
-      "color": "#e0f542"
+      "color": "#f7bc3d",
+      "background-color": "#fff1cd"
     },
     "Bündnis 90/Die Grünen": {
-      "color": "#37de04"
+      "color": "#19a229",
+      "background-color": "#c7efcc"
     },
     "AfD": {
-      "color": "#ff5733"
+      "color": "#80cdec",
+      "background-color": "#e2f4fb"
     },
     "Freie Wähler": {
-      "color": "#ea4623"
+      "color": "#0076b6",
+      "background-color": "#cce5f3"
     },
     "Bündnis Sahra Wagenknecht": {
-      "color": "#9308cb"
+      "color": "#cd386c",
+      "background-color": "#f7c5d4"
     },
     "Parteilos": {
-      "color": "#827f7f"
+      "color": "#eeeeee",
+      "background-color": "#f7f7f7"
     },
     "Sonstige": {
-      "color": "#083c64"
+      "color": "#d3d3d3",
+      "background-color": "#eeeeee"
     },
     "Südschleswigscher Wählerverband": {
-       "color": "#185787"
+      "color": "#003990",
+      "background-color": "#c7d4f2"
     },
     "Bürger in Wut": {
-       "color": "#216da7"  
+       "color": "#216da7",  
+       "background-color": "#216da7"
     },
     "DIE LINKE": {
-      "color": "#ff0000"
+      "color": "#ff0000",
+      "background-color": "#ff0000"
     }
-  }
+  }  
 }
