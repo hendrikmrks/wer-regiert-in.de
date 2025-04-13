@@ -998,43 +998,56 @@
   },
   "parties": {
     "CDU": {
-      "color": "#0a0a0a"
+      "color": "#1E1E1E",
+      "background-color": "#d9d9d9"
     },
     "CSU": {
-      "color": "#02d4db"
+      "color": "#0080c8",
+      "background-color": "#cceaf8"
     },
     "SPD": {
-      "color": "#f70509"
+      "color": "#d0000e",
+      "background-color": "#f6c5c8"
     },
     "FDP": {
-      "color": "#e0f542"
+      "color": "#f7bc3d",
+      "background-color": "#fff1cd"
     },
     "Bündnis 90/Die Grünen": {
-      "color": "#37de04"
+      "color": "#19a229",
+      "background-color": "#c7efcc"
     },
     "AfD": {
-      "color": "#ff5733"
+      "color": "#80cdec",
+      "background-color": "#e2f4fb"
     },
     "Freie Wähler": {
-      "color": "#ea4623"
+      "color": "#0076b6",
+      "background-color": "#cce5f3"
     },
     "Bündnis Sahra Wagenknecht": {
-      "color": "#9308cb"
+      "color": "#cd386c",
+      "background-color": "#f7c5d4"
     },
     "Parteilos": {
-      "color": "#827f7f"
+      "color": "#eeeeee",
+      "background-color": "#f7f7f7"
     },
     "Sonstige": {
-      "color": "#083c64"
+      "color": "#d3d3d3",
+      "background-color": "#eeeeee"
     },
     "Südschleswigscher Wählerverband": {
-       "color": "#185787"
+      "color": "#003990",
+      "background-color": "#c7d4f2"
     },
     "Bürger in Wut": {
-       "color": "#216da7"  
+       "color": "#216da7",  
+       "background-color": "#216da7"
     },
     "DIE LINKE": {
-      "color": "#ff0000"
+      "color": "#ff0000",
+      "background-color": "#ff0000"
     }
-  }
+  }  
 }
