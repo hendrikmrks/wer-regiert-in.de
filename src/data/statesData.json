@@ -3,7 +3,7 @@
     "name": "Bayern",
     "capital": "München",
     "population": 13176000,
-    "coalition": ["CSU", "SPD"],
+    "coalition": ["CSU", "Freie Wähler"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -66,7 +66,7 @@
     "name": "Baden-Württemberg",
     "capital": "Stuttgart",
     "population": 11280000,
-    "coalition": ["CSU", "SPD"],
+    "coalition": ["Bündnis 90/Die Grünen", "CDU"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -128,7 +128,7 @@
   "de-rp": {
     "name": "Rheinland-Pfalz",
     "capital": "Mainz",
-    "coalition": ["CSU", "SPD"],
+    "coalition": ["SPD", "Bündnis 90/Die Grünen", "FDP"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -191,7 +191,7 @@
     "name": "Hessen",
     "capital": "Wiesbaden",
     "population": 1000000,
-    "coalition": ["CSU", "SPD"],
+    "coalition": ["CDU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -253,7 +253,7 @@
     "name": "Nordrhein-Westfalen",
     "capital": "Düsseldorf",
     "population": 1000000,
-    "coalition": ["CSU", "SPD"],
+    "coalition": ["CDU", "Bündnis 90/Die Grünen"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -316,7 +316,7 @@
     "name": "Niedersachsen",
     "capital": "Hannover",
     "population": 1000000,
-    "coalition": ["CSU", "SPD"],
+    "coalition": ["SPD", "Bündnis 90/Die Grünen"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -379,7 +379,7 @@
     "name": "Schleswig-Holstein",
     "capital": "Kiel",
     "population": 1000000,
-    "coalition": ["CSU", "SPD"],
+    "coalition": ["CDU", "Bündnis 90/Die Grünen"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -447,12 +447,12 @@
     "name": "Mecklenburg-Vorpommern",
     "capital": "Schwerin",
     "population": 1000000,
-    "coalition": ["CSU", "SPD"],
+    "coalition": ["SPD", "DIE LINKE"],
     "government": [
       {
         "name": "Ministerpräsident",
-        "party": "CDU",
-        "current": "Daniel Günther"
+        "party": "SPD",
+        "current": "Manuela Schwesig"
       }
     ],
     "seats": [
@@ -510,7 +510,7 @@
     "name": "Brandenburg",
     "capital": "Potsdam",
     "population": 1000000,
-    "coalition": ["CSU", "SPD"],
+    "coalition": ["SPD", "Bündnis Sahra Wagenknecht"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -572,7 +572,7 @@
     "name": "Berlin",
     "capital": "Berlin",
     "population": 1000000,
-    "coalition": ["CSU", "SPD"],
+    "coalition": ["CDU", "SPD"],
     "government": [
       {
         "name": "Regierender Bürgermeister",
@@ -635,7 +635,7 @@
     "name": "Sachsen-Anhalt",
     "capital": "Magdeburg",
     "population": 1000000,
-    "coalition": ["CSU", "SPD"],
+    "coalition": ["CDU", "SPD", "FDP"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -698,7 +698,7 @@
     "name": "Thüringen",
     "capital": "Erfurt",
     "population": 1000000,
-    "coalition": ["CSU", "SPD"],
+    "coalition": ["CDU", "Bündnis Sahra Wagenknecht", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -760,7 +760,7 @@
     "name": "Sachsen",
     "capital": "Dresden",
     "population": 1000000,
-    "coalition": ["CSU", "SPD"],
+    "coalition": ["CDU", "SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -822,7 +822,7 @@
     "name": "Saarland",
     "capital": "Saarbrücken",
     "population": 1000000,
-    "coalition": ["CSU", "SPD"],
+    "coalition": ["SPD"],
     "government": [
       {
         "name": "Ministerpräsident",
@@ -885,7 +885,7 @@
     "name": "Hamburg",
     "capital": "Hamburg",
     "population": 1000000,
-    "coalition": ["CSU", "SPD"],
+    "coalition": ["SPD", "Bündnis 90/Die Grünen"],
     "government": [
       {
         "name": "Erster Bürgermeister",
@@ -947,7 +947,7 @@
     "name": "Bremen",
     "capital": "Bremen",
     "population": 1000000,
-    "coalition": ["CSU", "SPD"],
+    "coalition": ["SPD", "Bündnis 90/Die Grünen", "DIE LINKE"],
     "government": [
       {
         "name": "Bürgermeister",
