@@ -20,10 +20,11 @@ const StateModal = ({
                         <Modal.Title>{statesData[selectedState]?.name} ({statesData[selectedState]?.capital})</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
+                        <h5>Koalitionsaufbau</h5>
                         <Coalition state={statesData[selectedState]} colors={statesData["parties"]} />
                         <Row>
                             {statesData[selectedState]?.government.map((gov, index) => (
-                                <Col sm={6} className="mb-1" key={`gov-${index}`}>
+                                <Col className="mb-4" key={`gov-${index}`}>
                                     <Card
                                         className="h-100"
                                         style={{
@@ -44,14 +45,14 @@ const StateModal = ({
                         </Row>
 
                         <Row>
-                            <Col>
+                            <Col className="mb-4">
                                 <SeatsDiagram state={statesData[selectedState]} colors={statesData["parties"]} />
                             </Col>
                         </Row>
 
                         <Row>
                             <Col className="mb-4">
-                                <p>Wahlergebnis nach Zweitstimmen (Anzahl der Sitze)</p>
+                                <h5>Wahlergebnis nach Zweitstimmen (Anzahl der Sitze)</h5>
                                 <Table bordered hover>
                                     <tbody>
                                         {statesData[selectedState]?.seats.map((seat) => (
