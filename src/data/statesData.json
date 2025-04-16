@@ -59,6 +59,7 @@
       }
     ],
     "lastVoteDate": "2023",
+    "cycle": 5,
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet.",
     "seatsTotal": 203
   },
@@ -122,6 +123,7 @@
       }
     ],
     "lastVoteDate": "2021",
+    "cycle": 5,
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet.",
     "seatsTotal": 154
   },
@@ -184,6 +186,7 @@
       }
     ],
     "lastVoteDate": "2021",
+    "cycle": 5,
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet.",
     "seatsTotal": 101
   },
@@ -247,6 +250,7 @@
       }
     ],
     "lastVoteDate": "2023",
+    "cycle": 5,
     "seatsTotal": 133
   },
   "de-nw": {
@@ -309,6 +313,7 @@
       }
     ],
     "lastVoteDate": "2022",
+    "cycle": 5,
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet.",
     "seatsTotal": 195
   },
@@ -372,6 +377,7 @@
       }
     ],
     "lastVoteDate": "2022",
+    "cycle": 5,
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet.",
     "seatsTotal": 146
   },
@@ -441,6 +447,7 @@
     ],
     "seatsTotal": 69,
     "lastVoteDate": "2022",
+    "cycle": 5,
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
   },
   "de-mv": {
@@ -504,6 +511,7 @@
     ],
     "seatsTotal": 79,
     "lastVoteDate": "2021",
+    "cycle": 5,
     "notes": "BSW war zu diesem Zeitpunkt noch nicht gegründet."
   },
   "de-bb": {
@@ -566,7 +574,8 @@
       }
     ],
     "seatsTotal": 88,
-    "lastVoteDate": "2024"
+    "lastVoteDate": "2024",
+    "cycle": 5
   },
   "de-be": {
     "name": "Berlin",
@@ -629,6 +638,7 @@
     ],
     "seatsTotal": 159,
     "lastVoteDate": "2023",
+    "cycle": 5,
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet. Wahlwiederholung von ursprünglicher Wahl 2021."
   },
   "de-st": {
@@ -692,6 +702,7 @@
     ],
     "seatsTotal": 97,
     "lastVoteDate": "2021",
+    "cycle": 5,
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
   },
   "de-th": {
@@ -754,7 +765,8 @@
       }
     ],
     "seatsTotal": 88,
-    "lastVoteDate": "2024"
+    "lastVoteDate": "2024",
+    "cycle": 5
   },
   "de-sn": {
     "name": "Sachsen",
@@ -816,7 +828,8 @@
       }
     ],
     "seatsTotal": 120,
-    "lastVoteDate": "2024"
+    "lastVoteDate": "2024",
+    "cycle": 5
   },
   "de-sl": {
     "name": "Saarland",
@@ -879,6 +892,7 @@
     ],
     "seatsTotal": 51,
     "lastVoteDate": "2022",
+    "cycle": 5,
     "notes": "BSW war zu dem Zeitpunkt noch nicht gegründet."
   },
   "de-hh": {
@@ -941,7 +955,8 @@
       }
     ],
     "seatsTotal": 121,
-    "lastVoteDate": "2025"
+    "lastVoteDate": "2025",
+    "cycle": 5
   },
   "de-hb": {
     "name": "Bremen",
@@ -1009,6 +1024,7 @@
     ],
     "seatsTotal": 87,
     "lastVoteDate": "2023",
+    "cycle": 4,
     "notes": "BSW war zu diesem Zeitpunkt noch nicht gegründet. AfD hat wegen eines Auschlusses aufgrund der Einreichung zweier Kandidatenlisten an der Wahl nicht teilgenommen."
   },
   "parties": {

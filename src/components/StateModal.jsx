@@ -23,7 +23,7 @@ const StateModal = ({
                         <Coalition state={statesData[selectedState]} colors={statesData["parties"]} />
                         <Row>
                             {statesData[selectedState]?.government.map((gov, index) => (
-                                <Col sm={6} className="mb-4" key={`gov-${index}`}>
+                                <Col sm={6} className="mb-1" key={`gov-${index}`}>
                                     <Card
                                         className="h-100"
                                         style={{
@@ -44,7 +44,7 @@ const StateModal = ({
                         </Row>
 
                         <Row>
-                            <Col className="mb-4">
+                            <Col>
                                 <SeatsDiagram state={statesData[selectedState]} colors={statesData["parties"]} />
                             </Col>
                         </Row>
@@ -82,7 +82,19 @@ const StateModal = ({
                             </Row>
                         ):null}
 
-                        <Icon.Calendar /> Letzte Wahl: {statesData[selectedState]?.lastVoteDate}
+                        <Row>
+                            <Col>
+                                <p>
+                                <Icon.Calendar /> Letzte Wahl: {statesData[selectedState]?.lastVoteDate}
+                                </p>
+                            </Col>
+                            <Col>
+                                <p className={"text-end"}>
+                                <Icon.Calendar /> Nächste Wahl: {Number(statesData[selectedState]?.lastVoteDate) + statesData[selectedState]?.cycle}
+                                </p>
+                            </Col>
+                        </Row>
+
                     </Modal.Body>
                     <Modal.Footer>
                         <Button variant="secondary" onClick={handleClosePopUp}>
