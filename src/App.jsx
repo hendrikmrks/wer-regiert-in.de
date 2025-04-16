@@ -30,6 +30,7 @@ function App() {
       <footer>
         <p>Diese Karte kann Fehler enthalten und wurde zuletzt am {lastUpdate} aktualisiert.</p>
         <p>Made by Hendrik Beier, Nikolas Miksiewicz, Marc Wachsmann</p>
+          <p>Kontakt: <a href="mailto:kontakt@wer-regiert-in.de">kontakt@wer-regiert-in.de</a></p>
       </footer>
     </div>
   );

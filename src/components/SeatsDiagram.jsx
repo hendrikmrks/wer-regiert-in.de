@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { PieChart, Pie, Cell, Legend, Tooltip } from 'recharts';
+import { PieChart, Pie, Cell, Legend, Tooltip, ResponsiveContainer } from 'recharts';
 
 const SeatsDiagram = ({state, colors}) => {
 
@@ -7,7 +7,7 @@ const SeatsDiagram = ({state, colors}) => {
     const [isVisible, setIsVisible] = useState(false);
 
     // Chart-Größe als State
-    const [chartSize, setChartSize] = useState({ width: 400, height: 300 });
+    const [chartSize, setChartSize] = useState({ width: 700, height: 300 });
 
     // Nur Parteien mit Sitzen im Landtag anzeigen
     const data = state.seats.filter(party => party.seats > 0);
@@ -27,14 +27,15 @@ const SeatsDiagram = ({state, colors}) => {
     }
 
     return (
-        <PieChart width={chartSize.width} height={chartSize.height}>
+        <ResponsiveContainer width="100%" height={chartSize.height}>
+        <PieChart>
             <Pie
                 data={data}
                 cx={chartSize.width / 2}
                 cy={chartSize.height / 2}
                 labelLine={false}
                 label={false}
-                outerRadius={Math.min(chartSize.width, chartSize.height) / 3}
+                //outerRadius={Math.min(chartSize.width, chartSize.height) / 3}
                 fill="#8884d8"
                 dataKey="seats"
                 nameKey="name"
@@ -47,8 +48,9 @@ const SeatsDiagram = ({state, colors}) => {
                 ))}
             </Pie>
             <Tooltip formatter={(value, label) => [`${label} : ${value}`]} />
-            <Legend/>
+            <Legend verticalAlign={"bottom"} margin={{ top: 30 }}/>
         </PieChart>
+        </ResponsiveContainer>
     );
 };
 
