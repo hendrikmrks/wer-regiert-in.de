@@ -31,11 +31,10 @@ const SeatsDiagram = ({state, colors}) => {
         <PieChart>
             <Pie
                 data={data}
-                cx={chartSize.width / 2}
-                cy={chartSize.height / 2}
+                cx="50%"
+                cy="50%"
                 labelLine={false}
                 label={false}
-                //outerRadius={Math.min(chartSize.width, chartSize.height) / 3}
                 fill="#8884d8"
                 dataKey="seats"
                 nameKey="name"
