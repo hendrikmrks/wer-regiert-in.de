@@ -82,7 +82,19 @@ const StateModal = ({
                             </Row>
                         ):null}
 
-                        <Icon.Calendar /> Letzte Wahl: {statesData[selectedState]?.lastVoteDate}
+                        <Row>
+                            <Col>
+                                <p>
+                                <Icon.Calendar /> Letzte Wahl: {statesData[selectedState]?.lastVoteDate}
+                                </p>
+                            </Col>
+                            <Col>
+                                <p className={"text-end"}>
+                                <Icon.Calendar /> Nächste Wahl: {Number(statesData[selectedState]?.lastVoteDate) + statesData[selectedState]?.cycle}
+                                </p>
+                            </Col>
+                        </Row>
+
                     </Modal.Body>
                     <Modal.Footer>
                         <Button variant="secondary" onClick={handleClosePopUp}>
