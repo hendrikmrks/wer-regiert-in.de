@@ -55,10 +55,13 @@ const StateModal = ({
                                 <h5>Wahlergebnis nach Zweitstimmen (Anzahl der Sitze)</h5>
                                 <Table bordered hover>
                                     <tbody>
-                                        {statesData[selectedState]?.seats.map((seat) => (
-                                            <tr>
-                                                <td>{seat.name}</td>
-                                                <td>{seat.percent} % ({seat.seats})</td>
+                                        {statesData[selectedState]?.seats
+                                          .slice()
+                                          .sort((a, b) => b.seats - a.seats)
+                                          .map((seat) => (
+                                            <tr key={seat.name}>
+                                              <td>{seat.name}</td>
+                                              <td>{seat.percent} % ({seat.seats})</td>
                                             </tr>
                                         ))}
                                         <tr>
